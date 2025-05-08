@@ -1,0 +1,587 @@
+Timestamp,Level,Category,Message
+2025-03-20 21:22:16.161000+00:00,INFO ,APP:PROCESS_START,version: 5.9.59.0
+2025-03-20 21:22:16.278000+00:00,INFO ,APP,isTv context: uiModeType: 1; FEATURE_TELEVISION: false; FEATURE_LEANBACK: false; FEATURE_LIVE_TV: false; Amazon FireTV: false; diagonal: ~6.676336
+2025-03-20 21:22:16.278000+00:00,INFO ,APP,Was launched for TV: false
+2025-03-20 21:22:16.343000+00:00,INFO ,API,Session request...
+2025-03-20 21:22:16.456000+00:00,INFO ,APP,Added '_me_proton_core_data_crypto_master_key_' entry in this keystore.
+2025-03-20 21:22:16.460000+00:00,INFO ,UI,App in foreground: MainActivity 2025-03-20
+2025-03-20 21:22:16.481000+00:00,INFO ,NETWORK:CHANGED,"network available: 128 CELLULAR, VPN"
+2025-03-20 21:22:16.482000+00:00,INFO ,NETWORK:CHANGED,"default network: 128; transports: CELLULAR, VPN; capabilities: {MMS=false, SUPL=false, DUN=false, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=false, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=true, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:22:16.482000+00:00,INFO ,NETWORK:CHANGED,isPrivateDnsActive: false
+2025-03-20 21:22:16.503000+00:00,INFO ,TELEMETRY,"Cache loaded. Cached events: 0, total: 0"
+2025-03-20 21:22:16.727000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v4/domains/available?Type=login (auth [none])
+2025-03-20 21:22:16.728000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v4/features?Code=NewProfilesMvpEnabled&Type=boolean (auth [none])
+2025-03-20 21:22:16.804000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/auth/v4/sessions (auth [none])
+2025-03-20 21:22:16.815000+00:00,INFO ,APP.PERIODIC,executing action app_config
+2025-03-20 21:22:16.836000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/payments/v4/status/google (auth [none])
+2025-03-20 21:22:16.909000+00:00,INFO ,UI,App in foreground: AddAccountActivity 2025-03-20
+2025-03-20 21:22:16.912000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.ui.home.ServerListUpdater$special$$inlined$map$1@7659c2b]"
+2025-03-20 21:22:16.913000+00:00,INFO ,APP.PERIODIC,executing action streaming_services
+2025-03-20 21:22:16.920000+00:00,INFO ,USER.PLAN:CURRENT,no user logged in
+2025-03-20 21:22:16.920000+00:00,INFO ,NETWORK:CURRENT,"transports: CELLULAR, VPN capabilities: {MMS=false, SUPL=false, DUN=false, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=false, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=true, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:22:16.920000+00:00,INFO ,CONN:CURRENT,DISABLED
+2025-03-20 21:22:16.925000+00:00,INFO ,OS.POWER:CURRENT,"charging: true, device idle mode: false, power save mode: true, ignores optimizations: false"
+2025-03-20 21:22:16.926000+00:00,INFO ,APP,Sentry ID: cad07748-83ab-4484-b45b-ec6bca83d483
+2025-03-20 21:22:16.996000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/streamingservices (auth [none])
+2025-03-20 21:22:17.001000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v4/features?Code=NewProfilesMvpEnabled&Type=boolean (auth [none])
+2025-03-20 21:22:17.008000+00:00,INFO ,API,"netzone: null, mcc: US"
+2025-03-20 21:22:17.443000+00:00,WARN ,API:ERROR,"Http: httpCode=401 message=, proton=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null) cause=ProtonErrorException(response=Response{protocol=h2, code=401, message=, url=https://vpn-api.proton.me/core/v4/domains/available?Type=login}, protonData=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null))"
+2025-03-20 21:22:17.449000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v2/clientconfig (auth [none])
+2025-03-20 21:22:17.523000+00:00,WARN ,API:ERROR,"Http: httpCode=401 message=, proton=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null) cause=ProtonErrorException(response=Response{protocol=h2, code=401, message=, url=https://vpn-api.proton.me/payments/v4/status/google}, protonData=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null))"
+2025-03-20 21:22:17.722000+00:00,WARN ,API:ERROR,"Http: httpCode=401 message=, proton=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null) cause=ProtonErrorException(response=Response{protocol=h2, code=401, message=, url=https://vpn-api.proton.me/vpn/v2/clientconfig}, protonData=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null))"
+2025-03-20 21:22:17.734000+00:00,WARN ,API:ERROR,"Http: httpCode=401 message=, proton=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null) cause=ProtonErrorException(response=Response{protocol=h2, code=401, message=, url=https://vpn-api.proton.me/core/v4/features?Code=NewProfilesMvpEnabled&Type=boolean}, protonData=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null))"
+2025-03-20 21:22:17.735000+00:00,INFO ,API:REQUEST,"CertificateTransparency: vpn-api.proton.me Success: SCT trusted logs [5tIxY0B3jMEQQQbXcbnOwdJA9paEhvu6hzId/R43jlA=:Valid SCT, zPsPaoVxCWX+lZtTzumyfCLphVwNl422qX5UwP5MDbA=:Valid SCT]"
+2025-03-20 21:22:17.791000+00:00,WARN ,API:ERROR,"Http: httpCode=401 message=, proton=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null) cause=ProtonErrorException(response=Response{protocol=h2, code=401, message=, url=https://vpn-api.proton.me/vpn/v1/streamingservices}, protonData=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null))"
+2025-03-20 21:22:17.954000+00:00,INFO ,API:RESPONSE,200  POST https://vpn-api.proton.me/auth/v4/sessions (1148ms)
+2025-03-20 21:22:18.021000+00:00,INFO ,APP,Session created: unauthenticated id=gc45z a=2wqsd r=c5bp6 s=[]
+2025-03-20 21:22:18.050000+00:00,INFO ,API,"netzone: null, mcc: US"
+2025-03-20 21:22:18.086000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/payments/v4/status/google (auth 2wqsd...)
+2025-03-20 21:22:18.105000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v4/domains/available?Type=login (auth 2wqsd...)
+2025-03-20 21:22:18.148000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v2/clientconfig (auth 2wqsd...)
+2025-03-20 21:22:18.198000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v4/features?Code=NewProfilesMvpEnabled&Type=boolean (auth 2wqsd...)
+2025-03-20 21:22:18.223000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/streamingservices (auth 2wqsd...)
+2025-03-20 21:22:18.527000+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/core/v4/domains/available?Type=login (419ms)
+2025-03-20 21:22:18.544000+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/payments/v4/status/google (457ms)
+2025-03-20 21:22:18.558000+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/vpn/v2/clientconfig (409ms)
+2025-03-20 21:22:18.571000+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/core/v4/features?Code=NewProfilesMvpEnabled&Type=boolean (371ms)
+2025-03-20 21:22:18.579000+00:00,INFO ,APP,FeatureFlag `FeatureId(id=NewProfilesMvpEnabled)` not found.
+2025-03-20 21:22:18.607000+00:00,INFO ,UI,App in background
+2025-03-20 21:22:18.645000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/feature/v2/frontend?userCountry=US (auth 2wqsd...)
+2025-03-20 21:22:18.650000+00:00,INFO ,APP,"MemoryMonitor: pss: 96MB, private: 91MB, rss: 156MB, available: 679MB, low: false"
+2025-03-20 21:22:18.651000+00:00,INFO ,APP,MemoryMonitor importance: 230/2/null
+2025-03-20 21:22:19.565000+00:00,INFO ,TELEMETRY,"event added, total: 1"
+2025-03-20 21:22:19.566000+00:00,INFO ,TELEMETRY,"scheduling upload: new events, immediate"
+2025-03-20 21:22:28.237000+00:00,WARN ,API:ERROR,Timeout potentialBlock=false cause=java.net.SocketTimeoutException: timeout
+2025-03-20 21:22:28.657000+00:00,WARN ,API:ERROR,Timeout potentialBlock=false cause=java.net.SocketTimeoutException: timeout
+2025-03-20 21:22:29.047000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/streamingservices (auth 2wqsd...)
+2025-03-20 21:22:29.285000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/feature/v2/frontend?userCountry=US (auth 2wqsd...)
+2025-03-20 21:22:29.311000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:30.573000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/feature/v2/frontend?userCountry=US (auth 2wqsd...)
+2025-03-20 21:22:30.584000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:39.063000+00:00,WARN ,API:ERROR,Timeout potentialBlock=false cause=java.net.SocketTimeoutException: timeout
+2025-03-20 21:22:40.649000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/streamingservices (auth 2wqsd...)
+2025-03-20 21:22:40.660000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:40.672000+00:00,INFO ,APP.PERIODIC,executing action server_country_count
+2025-03-20 21:22:40.715000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/servers-count (auth 2wqsd...)
+2025-03-20 21:22:40.720000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:41.692000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/servers-count (auth 2wqsd...)
+2025-03-20 21:22:41.697000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:42.753000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/servers-count (auth 2wqsd...)
+2025-03-20 21:22:42.765000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:42.776000+00:00,INFO ,APP.PERIODIC,executing action location
+2025-03-20 21:22:42.816000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/location (auth 2wqsd...)
+2025-03-20 21:22:42.823000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:43.859000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/location (auth 2wqsd...)
+2025-03-20 21:22:43.872000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:45.049000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/location (auth 2wqsd...)
+2025-03-20 21:22:45.062000+00:00,WARN ,API:ERROR,"Connection potentialBlock=false cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:45.075000+00:00,INFO ,APP.PERIODIC,conditions change: [com.protonvpn.android.ui.home.ServerListUpdater$special$$inlined$map$1@7659c2b]
+2025-03-20 21:22:45.432000+00:00,INFO ,UI,App in foreground: AddAccountActivity 2025-03-20
+2025-03-20 21:22:45.436000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.ui.home.ServerListUpdater$special$$inlined$map$1@7659c2b]"
+2025-03-20 21:22:45.642000+00:00,INFO ,TELEMETRY,UploadWorker: starting
+2025-03-20 21:22:45.696000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/stats/multiple (auth 2wqsd...)
+2025-03-20 21:22:45.702000+00:00,WARN ,API:ERROR,"Connection potentialBlock=true cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:45.713000+00:00,INFO ,API:REQUEST,GET https://dns11.quad9.net/dns-query?dns=AAABAAABAAAAAAAAHWRvenlnNGxsYm9idXM0NGRzbjUyZzYzcm9udnNxCXByb3RvbnBybwN4eXoAAAEAAQ (auth [none])
+2025-03-20 21:22:45.714000+00:00,INFO ,API:REQUEST,GET https://dns.google/dns-query?dns=AAABAAABAAAAAAAAHWRvenlnNGxsYm9idXM0NGRzbjUyZzYzcm9udnNxCXByb3RvbnBybwN4eXoAAAEAAQ (auth [none])
+2025-03-20 21:22:45.735000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/tests/ping (auth 2wqsd...)
+2025-03-20 21:22:45.741000+00:00,WARN ,API:ERROR,"Connection potentialBlock=true cause=java.net.UnknownHostException: Unable to resolve host ""vpn-api.proton.me"": No address associated with hostname"
+2025-03-20 21:22:46.500000+00:00,INFO ,API:RESPONSE,200  GET https://dns11.quad9.net/dns-query?dns=AAABAAABAAAAAAAAHWRvenlnNGxsYm9idXM0NGRzbjUyZzYzcm9udnNxCXByb3RvbnBybwN4eXoAAAEAAQ (787ms)
+2025-03-20 21:22:46.551000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/stats/multiple (auth 2wqsd...)
+2025-03-20 21:22:47.117000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/data/v1/stats/multiple (563ms)
+2025-03-20 21:22:47.120000+00:00,INFO ,TELEMETRY,UploadWorker result: Success(hasMoreEvents=false)
+2025-03-20 21:22:47.184000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/stats/multiple (auth 2wqsd...)
+2025-03-20 21:22:47.964000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/data/v1/stats/multiple (778ms)
+2025-03-20 21:22:49.084000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/auth/v4/credentialless (auth 2wqsd...)
+2025-03-20 21:22:49.721000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/metrics (auth 2wqsd...)
+2025-03-20 21:22:49.868000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/auth/v4/credentialless (781ms)
+2025-03-20 21:22:49.954000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/stats/multiple (auth [none])
+2025-03-20 21:22:50.071000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/auth/v4/scopes (auth r7ruo...)
+2025-03-20 21:22:50.551000+00:00,WARN ,API:ERROR,"Http: httpCode=401 message=, proton=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null) cause=ProtonErrorException(response=Response{protocol=h2, code=401, message=, url=https://18.192.58.191/data/v1/stats/multiple}, protonData=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null))"
+2025-03-20 21:22:50.556000+00:00,INFO ,API,Session request...
+2025-03-20 21:22:50.591000+00:00,WARN ,API:ERROR,"Http: httpCode=401 message=, proton=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null) cause=ProtonErrorException(response=Response{protocol=h2, code=401, message=, url=https://18.192.58.191/data/v1/metrics}, protonData=ProtonData(code=401, error=Invalid access token, humanVerification=null, missingScopes=null, deviceVerification=null))"
+2025-03-20 21:22:50.607000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/auth/v4/sessions (auth [none])
+2025-03-20 21:22:50.698000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/auth/v4/scopes (627ms)
+2025-03-20 21:22:50.760000+00:00,INFO ,APP,"Session scopes refreshed: authenticated id=gc45z a=r7ruo r=jihjc s=[user, vpn]"
+2025-03-20 21:22:50.828000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/auth/v4/sessions (219ms)
+2025-03-20 21:22:50.908000+00:00,INFO ,APP,Session created: unauthenticated id=lo7gc a=msrww r=kusl3 s=[]
+2025-03-20 21:22:50.930000+00:00,INFO ,APP.PERIODIC,executing action app_config
+2025-03-20 21:22:50.934000+00:00,INFO ,APP.PERIODIC,executing action bug_report
+2025-03-20 21:22:50.966000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/metrics (auth msrww...)
+2025-03-20 21:22:50.989000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/stats/multiple (auth msrww...)
+2025-03-20 21:22:51.007000+00:00,INFO ,API,"netzone: null, mcc: US"
+2025-03-20 21:22:51.018000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/vpn/v2 (auth r7ruo...)
+2025-03-20 21:22:51.041000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/payments/v4/status/google (auth msrww...)
+2025-03-20 21:22:51.083000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/vpn/v2/clientconfig (auth r7ruo...)
+2025-03-20 21:22:51.187000+00:00,INFO ,APP.PERIODIC,executing action vpn_certificate
+2025-03-20 21:22:51.192000+00:00,INFO ,USER.CERT:REFRESH,retry count: 0
+2025-03-20 21:22:51.209000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/data/v1/stats/multiple (218ms)
+2025-03-20 21:22:51.259000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/data/v1/metrics (291ms)
+2025-03-20 21:22:51.272000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/vpn/v1/featureconfig/dynamic-bug-reports (auth r7ruo...)
+2025-03-20 21:22:51.319000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/vpn/v1/certificate (auth r7ruo...)
+2025-03-20 21:22:51.654000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/vpn/v2 (633ms)
+2025-03-20 21:22:51.700000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/payments/v4/status/google (656ms)
+2025-03-20 21:22:51.710000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/vpn/v2/clientconfig (624ms)
+2025-03-20 21:22:51.799000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/metrics (auth msrww...)
+2025-03-20 21:22:51.879000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/vpn/v1/featureconfig/dynamic-bug-reports (606ms)
+2025-03-20 21:22:51.880000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/feature/v2/frontend?userCountry=US (auth r7ruo...)
+2025-03-20 21:22:51.994000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/vpn/v1/certificate (673ms)
+2025-03-20 21:22:52.028000+00:00,INFO ,USER.CERT:NEW,expires at 2025-03-21T21:22:51.000Z
+2025-03-20 21:22:52.031000+00:00,INFO ,USER.CERT:SCHEDULE_REFRESH,at: 2025-03-21T15:22:51.000Z
+2025-03-20 21:22:52.161000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/data/v1/metrics (360ms)
+2025-03-20 21:22:52.500000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/feature/v2/frontend?userCountry=US (617ms)
+2025-03-20 21:22:52.600000+00:00,INFO ,USER.PLAN:CHANGED,"logged in: plan: free, maxTier: 0, maxConnect: 2, status: 1, subscribed: 0, services: 4, delinquent: 0"
+2025-03-20 21:22:52.685000+00:00,INFO ,APP.PERIODIC,executing action streaming_services
+2025-03-20 21:22:52.696000+00:00,INFO ,APP,EventManager internalStart Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:52.699000+00:00,INFO ,APP.PERIODIC,executing action in-app notifications
+2025-03-20 21:22:52.702000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d, com.protonvpn.android.ui.home.ServerListUpdater$special$$inlined$map$1@7659c2b]"
+2025-03-20 21:22:52.703000+00:00,INFO ,APP.PERIODIC,executing action server_loads
+2025-03-20 21:22:52.706000+00:00,INFO ,API,"netzone: null, mcc: US"
+2025-03-20 21:22:52.726000+00:00,INFO ,APP,"EventManager enqueueOrStop (true, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:22:52.740000+00:00,INFO ,TELEMETRY,"event added, total: 1"
+2025-03-20 21:22:52.741000+00:00,INFO ,TELEMETRY,"scheduling upload: new events, immediate"
+2025-03-20 21:22:52.765000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/vpn/v1/streamingservices (auth r7ruo...)
+2025-03-20 21:22:52.806000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/core/v4/pushes/active (auth r7ruo...)
+2025-03-20 21:22:52.832000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:52.872000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/core/v4/notifications?FullScreenImageSupport=PNG%2CWEBP%2CJPEG%2CLOTTIE%2CGIF&FullScreenImageWidth=1080&FullScreenImageHeight=2109 (auth r7ruo...)
+2025-03-20 21:22:52.875000+00:00,INFO ,UI,App in foreground: MainActivity 2025-03-20
+2025-03-20 21:22:52.877000+00:00,INFO ,APP.PERIODIC,executing action server_list
+2025-03-20 21:22:52.902000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/vpn/v1/loads?Tier=0 (auth r7ruo...)
+2025-03-20 21:22:52.932000+00:00,INFO ,API,"netzone: null, mcc: US"
+2025-03-20 21:22:52.947000+00:00,INFO ,TELEMETRY,UploadWorker: starting
+2025-03-20 21:22:52.948000+00:00,INFO ,APP,EventWorker doWork: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:52.952000+00:00,INFO ,APP,EventManager fetch: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:53.006000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/vpn/v1/logicals?WithTranslations=en&WithEntriesForProtocols=WireGuardUDP%2CWireGuardTCP%2COpenVPNUDP%2COpenVPNTCP%2CWireGuardTLS&WithState=true (auth r7ruo...)
+2025-03-20 21:22:53.028000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/vpn/v1/streamingservices (262ms)
+2025-03-20 21:22:53.097000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/stats/multiple (auth r7ruo...)
+2025-03-20 21:22:53.287000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/core/v4/notifications?FullScreenImageSupport=PNG%2CWEBP%2CJPEG%2CLOTTIE%2CGIF&FullScreenImageWidth=1080&FullScreenImageHeight=2109 (413ms)
+2025-03-20 21:22:53.330000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/data/v1/stats/multiple (231ms)
+2025-03-20 21:22:53.379000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/core/v5/events/Q70-TzsP_DUG37AzzbRFJWGl76a787IUDGd_B_PDGF5991DV1asi8p7mnWZmNo2X0Zsf6yhiboSpc5skrCKGbg== (auth r7ruo...)
+2025-03-20 21:22:53.389000+00:00,INFO ,TELEMETRY,UploadWorker result: Success(hasMoreEvents=false)
+2025-03-20 21:22:53.493000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/core/v4/pushes/active (684ms)
+2025-03-20 21:22:53.528000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/vpn/v1/loads?Tier=0 (625ms)
+2025-03-20 21:22:53.583000+00:00,INFO ,APP.PERIODIC,executing action vpn_info
+2025-03-20 21:22:53.641000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/vpn/v2 (auth r7ruo...)
+2025-03-20 21:22:53.880000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/vpn/v1/logicals?WithTranslations=en&WithEntriesForProtocols=WireGuardUDP%2CWireGuardTCP%2COpenVPNUDP%2COpenVPNTCP%2CWireGuardTLS&WithState=true (872ms)
+2025-03-20 21:22:54.069000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/core/v5/events/Q70-TzsP_DUG37AzzbRFJWGl76a787IUDGd_B_PDGF5991DV1asi8p7mnWZmNo2X0Zsf6yhiboSpc5skrCKGbg== (688ms)
+2025-03-20 21:22:54.135000+00:00,INFO ,APP,EventManager notifyPrepare: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:54.182000+00:00,INFO ,APP,EventManager notifyEvents: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:54.201000+00:00,INFO ,APP,EventManager notifySuccess: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:54.215000+00:00,INFO ,APP,EventManager notifyComplete: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:54.228000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:22:54.255000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:22:54.276000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/vpn/v2 (633ms)
+2025-03-20 21:22:54.674000+00:00,INFO ,APP.PERIODIC,executing action server_list
+2025-03-20 21:22:54.711000+00:00,INFO ,API,"netzone: null, mcc: US"
+2025-03-20 21:22:54.755000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/vpn/v1/logicals?WithTranslations=en&WithEntriesForProtocols=WireGuardUDP%2CWireGuardTCP%2COpenVPNUDP%2COpenVPNTCP%2CWireGuardTLS&WithState=true&Tier=0 (auth r7ruo...)
+2025-03-20 21:22:55.061000+00:00,INFO ,API:RESPONSE,HTTP 304  GET https://18.192.58.191/vpn/v1/logicals?WithTranslations=en&WithEntriesForProtocols=WireGuardUDP%2CWireGuardTCP%2COpenVPNUDP%2COpenVPNTCP%2CWireGuardTLS&WithState=true&Tier=0 (took 251ms)
+2025-03-20 21:22:55.823000+00:00,INFO ,UI:CONNECT,Home: connection card
+2025-03-20 21:22:56.173000+00:00,INFO ,UI,App in foreground: UpgradeOnboardingDialogActivity 2025-03-20
+2025-03-20 21:22:56.214000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/payments/v4/status/google (auth r7ruo...)
+2025-03-20 21:22:57.095000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/payments/v4/status/google (881ms)
+2025-03-20 21:22:57.130000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/payments/v5/plans?Vendor=google (auth r7ruo...)
+2025-03-20 21:22:57.347000+00:00,INFO ,UI,App in foreground: MainActivity 2025-03-20
+2025-03-20 21:22:57.398000+00:00,ERROR,CONN:ERROR,VPN permission denied. have_vpn_settings=true
+2025-03-20 21:22:57.549000+00:00,INFO ,UI,App in foreground: NoVpnPermissionActivity 2025-03-20
+2025-03-20 21:22:58.993000+00:00,INFO ,TELEMETRY,"event added, total: 1"
+2025-03-20 21:22:58.994000+00:00,INFO ,TELEMETRY,"scheduling upload: new events, immediate"
+2025-03-20 21:22:59.044000+00:00,INFO ,TELEMETRY,UploadWorker: starting
+2025-03-20 21:22:59.095000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/stats/multiple (auth r7ruo...)
+2025-03-20 21:22:59.358000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/data/v1/stats/multiple (261ms)
+2025-03-20 21:22:59.405000+00:00,INFO ,TELEMETRY,UploadWorker result: Success(hasMoreEvents=false)
+2025-03-20 21:23:00.265000+00:00,INFO ,UI:CONNECT,VPN permission retry
+2025-03-20 21:23:00.319000+00:00,INFO ,UI,App in foreground: MainActivity 2025-03-20
+2025-03-20 21:23:00.360000+00:00,ERROR,CONN:ERROR,VPN permission denied. have_vpn_settings=true
+2025-03-20 21:23:00.495000+00:00,INFO ,UI,App in foreground: NoVpnPermissionActivity 2025-03-20
+2025-03-20 21:23:01.996000+00:00,INFO ,TELEMETRY,"event added, total: 1"
+2025-03-20 21:23:02+00:00,INFO ,TELEMETRY,scheduling upload: new events
+2025-03-20 21:23:03.256000+00:00,INFO ,UI,App in background
+2025-03-20 21:23:03.259000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d, com.protonvpn.android.ui.home.ServerListUpdater$special$$inlined$map$1@7659c2b]"
+2025-03-20 21:23:03.373000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:03.381000+00:00,INFO ,APP,EventWorkerManager already enqueued: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:05.012000+00:00,INFO ,TELEMETRY,"event added, total: 2"
+2025-03-20 21:23:05.014000+00:00,INFO ,TELEMETRY,"scheduling upload: new events, immediate"
+2025-03-20 21:23:05.240000+00:00,INFO ,NETWORK:CHANGED,"network lost: 128 CELLULAR, VPN"
+2025-03-20 21:23:05.317000+00:00,INFO ,NETWORK:CHANGED,network available: 126 CELLULAR
+2025-03-20 21:23:05.319000+00:00,INFO ,NETWORK:CHANGED,"default network: 126; transports: CELLULAR; capabilities: {MMS=false, SUPL=true, DUN=true, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=true, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=true, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:05.345000+00:00,INFO ,NETWORK:CHANGED,isPrivateDnsActive: false
+2025-03-20 21:23:07.196000+00:00,INFO ,APP,"EventManager enqueueOrStop (true, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:07.198000+00:00,INFO ,UI,App in foreground: NoVpnPermissionActivity 2025-03-20
+2025-03-20 21:23:07.213000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:07.240000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d, com.protonvpn.android.ui.home.ServerListUpdater$special$$inlined$map$1@7659c2b]"
+2025-03-20 21:23:07.247000+00:00,INFO ,TELEMETRY,UploadWorker: starting
+2025-03-20 21:23:07.251000+00:00,INFO ,APP,EventWorker doWork: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:07.254000+00:00,INFO ,APP,EventManager fetch: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:07.286000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/stats/multiple (auth r7ruo...)
+2025-03-20 21:23:07.300000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (auth r7ruo...)
+2025-03-20 21:23:08.015000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (711ms)
+2025-03-20 21:23:08.074000+00:00,INFO ,APP,EventManager notifyPrepare: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:08.092000+00:00,INFO ,APP,EventManager notifyEvents: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:08.102000+00:00,INFO ,APP,EventManager notifySuccess: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:08.119000+00:00,INFO ,APP,EventManager notifyComplete: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:08.132000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:08.168000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:08.214000+00:00,INFO ,API:RESPONSE,200  POST https://18.192.58.191/data/v1/stats/multiple (927ms)
+2025-03-20 21:23:08.256000+00:00,INFO ,TELEMETRY,UploadWorker result: Success(hasMoreEvents=false)
+2025-03-20 21:23:09.070000+00:00,INFO ,UI,App in background
+2025-03-20 21:23:09.073000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d, com.protonvpn.android.ui.home.ServerListUpdater$special$$inlined$map$1@7659c2b]"
+2025-03-20 21:23:09.148000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:09.159000+00:00,INFO ,APP,EventWorkerManager already enqueued: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:10.187000+00:00,INFO ,APP,"EventManager enqueueOrStop (true, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:10.196000+00:00,INFO ,UI,App in foreground: NoVpnPermissionActivity 2025-03-20
+2025-03-20 21:23:10.201000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d, com.protonvpn.android.ui.home.ServerListUpdater$special$$inlined$map$1@7659c2b]"
+2025-03-20 21:23:10.213000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:10.259000+00:00,INFO ,APP,EventWorker doWork: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:10.263000+00:00,INFO ,APP,EventManager fetch: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:10.318000+00:00,INFO ,API:REQUEST,GET https://18.192.58.191/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (auth r7ruo...)
+2025-03-20 21:23:10.735000+00:00,INFO ,API:RESPONSE,200  GET https://18.192.58.191/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (413ms)
+2025-03-20 21:23:10.772000+00:00,INFO ,APP,EventManager notifyPrepare: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:10.780000+00:00,INFO ,APP,EventManager notifyEvents: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:10.798000+00:00,INFO ,APP,EventManager notifySuccess: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:10.805000+00:00,INFO ,APP,EventManager notifyComplete: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:10.812000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:10.830000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:12.292000+00:00,INFO ,UI:CONNECT,VPN permission retry
+2025-03-20 21:23:12.346000+00:00,INFO ,UI,App in foreground: MainActivity 2025-03-20
+2025-03-20 21:23:13.420000+00:00,INFO ,CONN.CONNECT:TRIGGER,"ConnectIntent: Fastest in country: fastest; features: [], reason: connection card"
+2025-03-20 21:23:13.426000+00:00,INFO ,CONN.CONNECT,Preparing connection with protocol: Smart
+2025-03-20 21:23:13.431000+00:00,INFO ,CONN.CONNECT:SCAN,"node-jp-18.protonvpn.net/138.199.21.193/WireGuard, UDP ports: [443, 88, 1224, 51820, 500, 4500]"
+2025-03-20 21:23:13.433000+00:00,INFO ,CONN.CONNECT:SCAN,"node-jp-18.protonvpn.net/138.199.21.193/WireGuard, TCP ports: [443]"
+2025-03-20 21:23:13.434000+00:00,INFO ,CONN.CONNECT:SCAN,"node-jp-18.protonvpn.net/138.199.21.193/WireGuard, TLS ports: [443]"
+2025-03-20 21:23:13.442000+00:00,INFO ,CONN:STATE_CHANGED,"Connecting, internal state: SCANNINGPORTS, backend: null, fallback active: null"
+2025-03-20 21:23:13.446000+00:00,WARN ,CONN.SERVER_SWITCH,ping socket not protected
+2025-03-20 21:23:13.446000+00:00,WARN ,CONN.SERVER_SWITCH,ping socket not protected
+2025-03-20 21:23:13.447000+00:00,WARN ,CONN.SERVER_SWITCH,ping socket not protected
+2025-03-20 21:23:13.448000+00:00,WARN ,CONN.SERVER_SWITCH,ping socket not protected
+2025-03-20 21:23:13.448000+00:00,WARN ,CONN.SERVER_SWITCH,ping socket not protected
+2025-03-20 21:23:13.448000+00:00,WARN ,CONN.SERVER_SWITCH,ping socket not protected
+2025-03-20 21:23:13.449000+00:00,WARN ,CONN.SERVER_SWITCH,ping socket not protected
+2025-03-20 21:23:13.466000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d]"
+2025-03-20 21:23:13.706000+00:00,INFO ,CONN.CONNECT:SCAN_RESULT,Connect to: IP: node-jp-18.protonvpn.net/138.199.21.193 Protocol: WireGuard Server: JP-FREE#4 UDP port: 443
+2025-03-20 21:23:13.707000+00:00,INFO ,CONN.CONNECT:START,"backend: WireGuard, params: IP: node-jp-18.protonvpn.net/138.199.21.193 Protocol: WireGuard Server: JP-FREE#4 UDP port: 443, ConnectIntent: Fastest in country: fastest; features: []"
+2025-03-20 21:23:13.708000+00:00,INFO ,CONN,storing connection params (node-jp-18.protonvpn.net)
+2025-03-20 21:23:13.725000+00:00,INFO ,CONN,"WireGuard port: 443, allowed IPs: 0.0.0.0/0, ::/0"
+2025-03-20 21:23:13.752000+00:00,INFO ,CONN.CONNECT,Wireguard service started with intent: Intent { cmp=ch.protonvpn.android/com.protonvpn.android.vpn.wireguard.WireguardWrapperService }
+2025-03-20 21:23:13.830000+00:00,INFO ,PROTOCOL,Attaching to interface tun0
+2025-03-20 21:23:13.830000+00:00,INFO ,PROTOCOL,Allowed addresses: 10.2.0.2
+2025-03-20 21:23:13.830000+00:00,INFO ,PROTOCOL,UAPI: Updating private key
+2025-03-20 21:23:13.830000+00:00,INFO ,PROTOCOL,Routine: encryption worker 8 - started
+2025-03-20 21:23:13.831000+00:00,INFO ,PROTOCOL,Routine: encryption worker 7 - started
+2025-03-20 21:23:13.831000+00:00,INFO ,PROTOCOL,Routine: handshake worker 2 - started
+2025-03-20 21:23:13.831000+00:00,INFO ,PROTOCOL,Routine: encryption worker 5 - started
+2025-03-20 21:23:13.831000+00:00,INFO ,PROTOCOL,Routine: decryption worker 5 - started
+2025-03-20 21:23:13.832000+00:00,INFO ,PROTOCOL,Routine: decryption worker 7 - started
+2025-03-20 21:23:13.832000+00:00,INFO ,PROTOCOL,Routine: handshake worker 5 - started
+2025-03-20 21:23:13.832000+00:00,INFO ,PROTOCOL,Routine: encryption worker 4 - started
+2025-03-20 21:23:13.832000+00:00,INFO ,PROTOCOL,Routine: encryption worker 1 - started
+2025-03-20 21:23:13.833000+00:00,INFO ,PROTOCOL,Routine: decryption worker 1 - started
+2025-03-20 21:23:13.833000+00:00,INFO ,PROTOCOL,Routine: handshake worker 1 - started
+2025-03-20 21:23:13.833000+00:00,INFO ,PROTOCOL,Routine: decryption worker 4 - started
+2025-03-20 21:23:13.833000+00:00,INFO ,PROTOCOL,Routine: handshake worker 7 - started
+2025-03-20 21:23:13.834000+00:00,INFO ,PROTOCOL,Routine: handshake worker 4 - started
+2025-03-20 21:23:13.834000+00:00,INFO ,PROTOCOL,Routine: decryption worker 3 - started
+2025-03-20 21:23:13.834000+00:00,INFO ,PROTOCOL,Routine: handshake worker 8 - started
+2025-03-20 21:23:13.834000+00:00,INFO ,PROTOCOL,Routine: decryption worker 8 - started
+2025-03-20 21:23:13.835000+00:00,INFO ,PROTOCOL,Routine: decryption worker 6 - started
+2025-03-20 21:23:13.835000+00:00,INFO ,PROTOCOL,Routine: handshake worker 3 - started
+2025-03-20 21:23:13.835000+00:00,INFO ,PROTOCOL,Routine: encryption worker 6 - started
+2025-03-20 21:23:13.835000+00:00,INFO ,PROTOCOL,Routine: decryption worker 2 - started
+2025-03-20 21:23:13.835000+00:00,INFO ,PROTOCOL,Routine: encryption worker 2 - started
+2025-03-20 21:23:13.836000+00:00,INFO ,PROTOCOL,Routine: event worker - started
+2025-03-20 21:23:13.836000+00:00,INFO ,PROTOCOL,Routine: TUN reader - started
+2025-03-20 21:23:13.836000+00:00,INFO ,PROTOCOL,Routine: encryption worker 3 - started
+2025-03-20 21:23:13.836000+00:00,INFO ,CONN.WIREGUARD,start monitoring job
+2025-03-20 21:23:13.836000+00:00,INFO ,PROTOCOL,Routine: handshake worker 6 - started
+2025-03-20 21:23:13.836000+00:00,INFO ,PROTOCOL,UAPI: Removing all peers
+2025-03-20 21:23:13.836000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Created
+2025-03-20 21:23:13.836000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Adding allowedip
+2025-03-20 21:23:13.837000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Adding allowedip
+2025-03-20 21:23:13.837000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Updating endpoint
+2025-03-20 21:23:13.837000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Updating persistent keepalive interval
+2025-03-20 21:23:13.837000+00:00,ERROR,PROTOCOL,UAPIOpen: mkdir /var: read-only file system
+2025-03-20 21:23:13.837000+00:00,INFO ,PROTOCOL,StateManager: start loop
+2025-03-20 21:23:13.838000+00:00,INFO ,CONN:STATE_CHANGED,"Connecting, internal state: CONNECTING, backend: WireGuard, fallback active: null"
+2025-03-20 21:23:13.850000+00:00,INFO ,CONN.WIREGUARD,set network available: true
+2025-03-20 21:23:13.855000+00:00,INFO ,PROTOCOL,StateManager: network on
+2025-03-20 21:23:13.863000+00:00,INFO ,PROTOCOL,UDP bind has been updated
+2025-03-20 21:23:13.864000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Starting
+2025-03-20 21:23:13.864000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending keepalive packet
+2025-03-20 21:23:13.864000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending handshake initiation
+2025-03-20 21:23:13.864000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Routine: sequential sender - started
+2025-03-20 21:23:13.864000+00:00,INFO ,PROTOCOL,Routine: receive incoming v4 - started
+2025-03-20 21:23:13.865000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Routine: sequential receiver - started
+2025-03-20 21:23:13.865000+00:00,INFO ,PROTOCOL,Routine: receive incoming v6 - started
+2025-03-20 21:23:13.866000+00:00,INFO ,PROTOCOL,"Interface state was Down, requested Up, now Up"
+2025-03-20 21:23:13.950000+00:00,INFO ,NETWORK:CHANGED,"network available: 129 CELLULAR, VPN"
+2025-03-20 21:23:13.953000+00:00,INFO ,NETWORK:CHANGED,"default network: 129; transports: CELLULAR, VPN; capabilities: {MMS=false, SUPL=false, DUN=false, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=false, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=false, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:13.956000+00:00,INFO ,NETWORK:CHANGED,isPrivateDnsActive: false
+2025-03-20 21:23:14.027000+00:00,INFO ,CONN:STATE_CHANGED,"Tunnel connected: resetting OkHttp sockets, ongoing_requests=false"
+2025-03-20 21:23:14.028000+00:00,INFO ,CONN.WIREGUARD,set network available: true
+2025-03-20 21:23:14.032000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Received handshake response
+2025-03-20 21:23:14.078000+00:00,INFO ,NETWORK:CHANGED,"default network: 129; transports: CELLULAR, VPN; capabilities: {MMS=false, SUPL=false, DUN=false, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=false, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=true, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:14.087000+00:00,INFO ,LOCAL_AGENT,LocalAgent: Connect
+2025-03-20 21:23:14.091000+00:00,INFO ,LOCAL_AGENT,LocalAgent: establishing tls connection...
+2025-03-20 21:23:14.092000+00:00,INFO ,LOCAL_AGENT:STATE_CHANGED,Connecting
+2025-03-20 21:23:14.528000+00:00,INFO ,LOCAL_AGENT,LocalAgent: established tls connection
+2025-03-20 21:23:14.528000+00:00,INFO ,LOCAL_AGENT,LocalAgent: waiting for message...
+2025-03-20 21:23:15.148000+00:00,INFO ,LOCAL_AGENT,"LocalAgent received: {""status"": {""state"": ""connected"", ""features"": {""netshield-level"": 0, ""split-tcp"": true, ""bouncing"": ""2"", ""randomized-nat"": true, ""port-forwarding"": false, ""jail"": false, ""safe-mode"": false}, ""restrictions"": [], ""client-device-ip"": ""174.234.11.233"", ""connection-details"": {""device-ip"": ""174.234.11.233"", ""device-country"": ""US"", ""server-ipv4"": ""138.199.21.196"", ""server-ipv6"": ""2a02:6ea0:d33b:2105::13""}}}"
+2025-03-20 21:23:15.150000+00:00,INFO ,LOCAL_AGENT,LocalAgent: waiting for message...
+2025-03-20 21:23:15.161000+00:00,INFO ,LOCAL_AGENT:STATE_CHANGED,Connected
+2025-03-20 21:23:15.168000+00:00,INFO ,LOCAL_AGENT:STATUS,"StatusMessage{State:connected,Features:Features{},Reason:null,SwitchTo:,ConnectionDetails:ConnectionDetails{DeviceIp:174.234.11.233,DeviceCountry:US,ServerIpv4:138.199.21.196,ServerIpv6:2a02:6ea0:d33b:2105::13,},FeaturesStatistics:null,}"
+2025-03-20 21:23:15.171000+00:00,INFO ,APP.PERIODIC,executing action server_list
+2025-03-20 21:23:15.193000+00:00,INFO ,CONN:STATE_CHANGED,"Connected, internal state: CONNECTED, backend: WireGuard, fallback active: null"
+2025-03-20 21:23:15.199000+00:00,INFO ,API,"netzone: 174.234.11.0, mcc: US"
+2025-03-20 21:23:15.237000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v1/logicals?WithTranslations=en&WithEntriesForProtocols=WireGuardUDP%2CWireGuardTCP%2COpenVPNUDP%2COpenVPNTCP%2CWireGuardTLS&WithState=true&Tier=0 (auth r7ruo...)
+2025-03-20 21:23:15.378000+00:00,INFO ,TELEMETRY,"event added, total: 1"
+2025-03-20 21:23:15.378000+00:00,INFO ,TELEMETRY,scheduling upload: new events
+2025-03-20 21:23:16.517000+00:00,INFO ,UI,App in background
+2025-03-20 21:23:16.518000+00:00,INFO ,APP.PERIODIC,conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d]
+2025-03-20 21:23:17.188000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:17.208000+00:00,INFO ,APP,EventWorkerManager already enqueued: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:17.322000+00:00,INFO ,API:RESPONSE,HTTP 304  GET https://vpn-api.proton.me/vpn/v1/logicals?WithTranslations=en&WithEntriesForProtocols=WireGuardUDP%2CWireGuardTCP%2COpenVPNUDP%2COpenVPNTCP%2CWireGuardTLS&WithState=true&Tier=0 (took 939ms)
+2025-03-20 21:23:20.286000+00:00,INFO ,NETWORK:CHANGED,"network lost: 129 CELLULAR, VPN"
+2025-03-20 21:23:20.346000+00:00,INFO ,NETWORK:CHANGED,network available: 126 CELLULAR
+2025-03-20 21:23:20.347000+00:00,INFO ,NETWORK:CHANGED,"default network: 126; transports: CELLULAR; capabilities: {MMS=false, SUPL=true, DUN=true, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=true, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=true, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:20.348000+00:00,INFO ,NETWORK:CHANGED,isPrivateDnsActive: false
+2025-03-20 21:23:20.359000+00:00,INFO ,CONN.WIREGUARD,set network available: true
+2025-03-20 21:23:20.363000+00:00,INFO ,PROTOCOL,StateManager: network change detected
+2025-03-20 21:23:20.531000+00:00,INFO ,CONN.WIREGUARD,set network available: true
+2025-03-20 21:23:20.548000+00:00,INFO ,PROTOCOL,StateManager: network change detected
+2025-03-20 21:23:20.564000+00:00,INFO ,NETWORK:CHANGED,"network available: 130 CELLULAR, VPN"
+2025-03-20 21:23:20.566000+00:00,INFO ,NETWORK:CHANGED,"default network: 130; transports: CELLULAR, VPN; capabilities: {MMS=false, SUPL=false, DUN=false, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=false, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=false, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:20.567000+00:00,INFO ,NETWORK:CHANGED,isPrivateDnsActive: false
+2025-03-20 21:23:20.603000+00:00,INFO ,NETWORK:CHANGED,"default network: 130; transports: CELLULAR, VPN; capabilities: {MMS=false, SUPL=false, DUN=false, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=false, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=true, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:21.998000+00:00,INFO ,APP,"EventManager enqueueOrStop (true, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:22.019000+00:00,INFO ,UI,App in foreground: MainActivity 2025-03-20
+2025-03-20 21:23:22.053000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:22.084000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d]"
+2025-03-20 21:23:22.103000+00:00,INFO ,APP,EventWorker doWork: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:22.106000+00:00,INFO ,APP,EventManager fetch: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:22.186000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (auth r7ruo...)
+2025-03-20 21:23:23+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (813ms)
+2025-03-20 21:23:23.025000+00:00,INFO ,APP,EventManager notifyPrepare: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:23.040000+00:00,INFO ,APP,EventManager notifyEvents: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:23.049000+00:00,INFO ,APP,EventManager notifySuccess: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:23.059000+00:00,INFO ,APP,EventManager notifyComplete: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:23.070000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:23.095000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:24.419000+00:00,INFO ,UI:NAV,main navigating to settings
+2025-03-20 21:23:25.689000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/stats/multiple (auth msrww...)
+2025-03-20 21:23:25.980000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/metrics (auth msrww...)
+2025-03-20 21:23:26.295000+00:00,INFO ,API:RESPONSE,200  POST https://vpn-api.proton.me/data/v1/stats/multiple (603ms)
+2025-03-20 21:23:26.621000+00:00,INFO ,API:RESPONSE,200  POST https://vpn-api.proton.me/data/v1/metrics (639ms)
+2025-03-20 21:23:26.693000+00:00,INFO ,UI:NAV,rootNav navigating to subSettingsScreen
+2025-03-20 21:23:27.734000+00:00,INFO ,SETTINGS:CHANGED,Protocol: WireGuardTLS
+2025-03-20 21:23:28.729000+00:00,INFO ,UI:RECONNECT,settings
+2025-03-20 21:23:28.732000+00:00,INFO ,CONN.CONNECT:TRIGGER,"ConnectIntent: Fastest in country: fastest; features: [], reason: reconnection"
+2025-03-20 21:23:28.736000+00:00,INFO ,CONN.CONNECT,Preparing connection with protocol: WireGuard TLS
+2025-03-20 21:23:28.737000+00:00,INFO ,CONN.CONNECT:SCAN,"node-jp-18.protonvpn.net/138.199.21.193/WireGuard, TLS ports: [443]"
+2025-03-20 21:23:28.764000+00:00,INFO ,CONN:STATE_CHANGED,"Connecting, internal state: SCANNINGPORTS, backend: WireGuard, fallback active: null"
+2025-03-20 21:23:28.845000+00:00,INFO ,API:REQUEST,POST https://18.192.58.191/data/v1/stats/multiple (auth msrww...)
+2025-03-20 21:23:28.966000+00:00,INFO ,CONN.CONNECT:SCAN_RESULT,Connect to: IP: node-jp-18.protonvpn.net/138.199.21.193 Protocol: WireGuard Server: JP-FREE#4 TLS port: 443
+2025-03-20 21:23:28.967000+00:00,INFO ,CONN.DISCONNECT:TRIGGER,reason: new connection
+2025-03-20 21:23:28.968000+00:00,INFO ,CONN,removing connection params (disconnect for new connection)
+2025-03-20 21:23:28.972000+00:00,INFO ,LOCAL_AGENT,LocalAgent: closing
+2025-03-20 21:23:28.994000+00:00,INFO ,CONN:STATE_CHANGED,"Connecting, internal state: CONNECTING, backend: WireGuard, fallback active: null"
+2025-03-20 21:23:28.995000+00:00,INFO ,TELEMETRY,"event added, total: 2"
+2025-03-20 21:23:29.006000+00:00,INFO ,PROTOCOL,Device closing
+2025-03-20 21:23:29.007000+00:00,INFO ,PROTOCOL,Routine: event worker - stopped
+2025-03-20 21:23:29.030000+00:00,WARN ,API:ERROR,Connection potentialBlock=true cause=java.net.ConnectException: Failed to connect to /18.192.58.191:443
+2025-03-20 21:23:29.031000+00:00,INFO ,API,Invalidating alt backend after failure
+2025-03-20 21:23:29.046000+00:00,INFO ,PROTOCOL,Routine: TUN reader - stopped
+2025-03-20 21:23:29.047000+00:00,INFO ,PROTOCOL,Routine: receive incoming v4 - stopped
+2025-03-20 21:23:29.049000+00:00,INFO ,CONN.CONNECT:START,"backend: WireGuard, params: IP: node-jp-18.protonvpn.net/138.199.21.193 Protocol: WireGuard Server: JP-FREE#4 TLS port: 443, ConnectIntent: Fastest in country: fastest; features: []"
+2025-03-20 21:23:29.050000+00:00,INFO ,CONN,storing connection params (node-jp-18.protonvpn.net)
+2025-03-20 21:23:29.051000+00:00,INFO ,CONN,"WireGuard port: 443, allowed IPs: 0.0.0.0/0, ::/0"
+2025-03-20 21:23:29.057000+00:00,INFO ,CONN.WIREGUARD,stop monitoring job
+2025-03-20 21:23:29.057000+00:00,INFO ,CONN:STATE_CHANGED,"Connecting, internal state: CONNECTING, backend: null, fallback active: null"
+2025-03-20 21:23:29.058000+00:00,INFO ,PROTOCOL,Routine: receive incoming v6 - stopped
+2025-03-20 21:23:29.058000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Stopping
+2025-03-20 21:23:29.058000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Routine: sequential sender - stopped
+2025-03-20 21:23:29.058000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Routine: sequential receiver - stopped
+2025-03-20 21:23:29.058000+00:00,INFO ,PROTOCOL,Device closed
+2025-03-20 21:23:29.058000+00:00,INFO ,PROTOCOL,StateManager: closing
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: handshake worker 5 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: handshake worker 3 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,StateManager: end loop
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: handshake worker 7 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: decryption worker 4 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: decryption worker 6 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: decryption worker 1 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: decryption worker 8 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: decryption worker 3 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: decryption worker 2 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: handshake worker 1 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: decryption worker 7 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: handshake worker 2 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: handshake worker 6 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: handshake worker 8 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: handshake worker 4 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: decryption worker 5 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: encryption worker 6 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: encryption worker 4 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: encryption worker 5 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: encryption worker 2 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: encryption worker 7 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: encryption worker 8 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: encryption worker 1 - stopped
+2025-03-20 21:23:29.059000+00:00,INFO ,PROTOCOL,Routine: encryption worker 3 - stopped
+2025-03-20 21:23:29.078000+00:00,INFO ,CONN.CONNECT,Wireguard service started with intent: Intent { cmp=ch.protonvpn.android/com.protonvpn.android.vpn.wireguard.WireguardWrapperService }
+2025-03-20 21:23:29.110000+00:00,INFO ,NETWORK:CHANGED,network lost: 130
+2025-03-20 21:23:29.184000+00:00,INFO ,NETWORK:CHANGED,network available: 126 CELLULAR
+2025-03-20 21:23:29.186000+00:00,INFO ,NETWORK:CHANGED,"default network: 126; transports: CELLULAR; capabilities: {MMS=false, SUPL=true, DUN=true, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=true, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=true, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:29.187000+00:00,INFO ,NETWORK:CHANGED,isPrivateDnsActive: false
+2025-03-20 21:23:29.194000+00:00,INFO ,PROTOCOL,Attaching to interface tun0
+2025-03-20 21:23:29.195000+00:00,INFO ,PROTOCOL,Allowed addresses: 10.2.0.2
+2025-03-20 21:23:29.207000+00:00,INFO ,PROTOCOL,Routine: encryption worker 1 - started
+2025-03-20 21:23:29.208000+00:00,INFO ,PROTOCOL,Routine: decryption worker 1 - started
+2025-03-20 21:23:29.208000+00:00,INFO ,PROTOCOL,Routine: encryption worker 3 - started
+2025-03-20 21:23:29.208000+00:00,INFO ,PROTOCOL,Routine: handshake worker 5 - started
+2025-03-20 21:23:29.209000+00:00,INFO ,PROTOCOL,Routine: handshake worker 4 - started
+2025-03-20 21:23:29.209000+00:00,INFO ,PROTOCOL,Routine: encryption worker 4 - started
+2025-03-20 21:23:29.209000+00:00,INFO ,PROTOCOL,Routine: decryption worker 4 - started
+2025-03-20 21:23:29.209000+00:00,INFO ,PROTOCOL,Routine: handshake worker 3 - started
+2025-03-20 21:23:29.209000+00:00,INFO ,PROTOCOL,Routine: decryption worker 5 - started
+2025-03-20 21:23:29.210000+00:00,INFO ,PROTOCOL,Routine: decryption worker 3 - started
+2025-03-20 21:23:29.210000+00:00,INFO ,PROTOCOL,Routine: decryption worker 2 - started
+2025-03-20 21:23:29.210000+00:00,INFO ,PROTOCOL,Routine: encryption worker 6 - started
+2025-03-20 21:23:29.210000+00:00,INFO ,PROTOCOL,Routine: encryption worker 5 - started
+2025-03-20 21:23:29.210000+00:00,INFO ,PROTOCOL,Routine: encryption worker 7 - started
+2025-03-20 21:23:29.210000+00:00,INFO ,PROTOCOL,Routine: decryption worker 6 - started
+2025-03-20 21:23:29.210000+00:00,INFO ,PROTOCOL,Routine: handshake worker 2 - started
+2025-03-20 21:23:29.211000+00:00,INFO ,PROTOCOL,Routine: handshake worker 7 - started
+2025-03-20 21:23:29.211000+00:00,INFO ,PROTOCOL,Routine: encryption worker 2 - started
+2025-03-20 21:23:29.211000+00:00,INFO ,PROTOCOL,Routine: encryption worker 8 - started
+2025-03-20 21:23:29.211000+00:00,INFO ,PROTOCOL,Routine: handshake worker 6 - started
+2025-03-20 21:23:29.211000+00:00,INFO ,PROTOCOL,Routine: decryption worker 7 - started
+2025-03-20 21:23:29.218000+00:00,INFO ,PROTOCOL,Routine: handshake worker 1 - started
+2025-03-20 21:23:29.219000+00:00,INFO ,PROTOCOL,Routine: decryption worker 8 - started
+2025-03-20 21:23:29.219000+00:00,INFO ,PROTOCOL,Routine: TUN reader - started
+2025-03-20 21:23:29.220000+00:00,INFO ,PROTOCOL,Routine: event worker - started
+2025-03-20 21:23:29.220000+00:00,INFO ,PROTOCOL,Routine: handshake worker 8 - started
+2025-03-20 21:23:29.220000+00:00,INFO ,PROTOCOL,UAPI: Updating private key
+2025-03-20 21:23:29.220000+00:00,INFO ,PROTOCOL,UAPI: Removing all peers
+2025-03-20 21:23:29.228000+00:00,INFO ,CONN:STATE_CHANGED,"Connecting, internal state: CONNECTING, backend: WireGuard, fallback active: null"
+2025-03-20 21:23:29.228000+00:00,INFO ,CONN.WIREGUARD,start monitoring job
+2025-03-20 21:23:29.230000+00:00,INFO ,CONN.WIREGUARD,set network available: true
+2025-03-20 21:23:29.238000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Created
+2025-03-20 21:23:29.238000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Adding allowedip
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Adding allowedip
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Updating endpoint
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - UAPI: Updating persistent keepalive interval
+2025-03-20 21:23:29.239000+00:00,ERROR,PROTOCOL,UAPIOpen: mkdir /var: read-only file system
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,StateManager: start loop
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,StateManager: network on
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,TCP/TLS: Close
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,TCP/TLS: Open 0
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,UDP bind has been updated
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Starting
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,Routine: receive incoming makeReceiveFunc - started
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Routine: sequential sender - started
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending keepalive packet
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending handshake initiation
+2025-03-20 21:23:29.239000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Routine: sequential receiver - started
+2025-03-20 21:23:29.328000+00:00,INFO ,NETWORK:CHANGED,"network available: 131 CELLULAR, VPN"
+2025-03-20 21:23:29.329000+00:00,INFO ,NETWORK:CHANGED,"default network: 131; transports: CELLULAR, VPN; capabilities: {MMS=false, SUPL=false, DUN=false, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=false, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=false, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:29.331000+00:00,INFO ,NETWORK:CHANGED,isPrivateDnsActive: false
+2025-03-20 21:23:29.370000+00:00,INFO ,APP,Could not send telemetry events.
+2025-03-20 21:23:29.388000+00:00,INFO ,PROTOCOL,TCP dial result: <nil>
+2025-03-20 21:23:29.414000+00:00,INFO ,PROTOCOL,TLS: Starting handshake hello=0
+2025-03-20 21:23:29.423000+00:00,INFO ,NETWORK:CHANGED,"default network: 131; transports: CELLULAR, VPN; capabilities: {MMS=false, SUPL=false, DUN=false, FOTA=false, IMS=false, WIFI_P2P=false, IA=false, XCAP=false, NOT_METERED=false, INTERNET=true, NOT_VPN=false, TRUSTED=true, TEMP NOT METERED=false, NOT SUSPENDED=true, VALIDATED=true, CAPTIVE PORTAL=false, NOT ROAMING=true, NOT CONGESTED=true}"
+2025-03-20 21:23:29.586000+00:00,INFO ,PROTOCOL,TLS: Handshake result: <nil>
+2025-03-20 21:23:29.689000+00:00,INFO ,CONN.WIREGUARD,set network available: true
+2025-03-20 21:23:29.690000+00:00,INFO ,PROTOCOL,"Interface state was Down, requested Up, now Up"
+2025-03-20 21:23:29.691000+00:00,INFO ,CONN.WIREGUARD,set network available: true
+2025-03-20 21:23:29.850000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Received handshake response
+2025-03-20 21:23:29.850000+00:00,INFO ,CONN:STATE_CHANGED,"Tunnel connected: resetting OkHttp sockets, ongoing_requests=false"
+2025-03-20 21:23:29.856000+00:00,INFO ,LOCAL_AGENT,LocalAgent: Connect
+2025-03-20 21:23:29.857000+00:00,INFO ,LOCAL_AGENT,LocalAgent: establishing tls connection...
+2025-03-20 21:23:29.859000+00:00,INFO ,LOCAL_AGENT:STATE_CHANGED,Connecting
+2025-03-20 21:23:30.221000+00:00,INFO ,LOCAL_AGENT,LocalAgent: waiting for message...
+2025-03-20 21:23:30.221000+00:00,INFO ,LOCAL_AGENT,LocalAgent: established tls connection
+2025-03-20 21:23:30.585000+00:00,INFO ,LOCAL_AGENT,"LocalAgent received: {""status"": {""state"": ""connected"", ""features"": {""netshield-level"": 0, ""split-tcp"": true, ""bouncing"": ""2"", ""randomized-nat"": true, ""port-forwarding"": false, ""jail"": false, ""safe-mode"": false}, ""restrictions"": [], ""client-device-ip"": ""174.234.11.233"", ""connection-details"": {""device-ip"": ""174.234.11.233"", ""device-country"": ""US"", ""server-ipv4"": ""138.199.21.196"", ""server-ipv6"": ""2a02:6ea0:d33b:2105::13""}}}"
+2025-03-20 21:23:30.587000+00:00,INFO ,LOCAL_AGENT,LocalAgent: waiting for message...
+2025-03-20 21:23:30.589000+00:00,INFO ,LOCAL_AGENT:STATE_CHANGED,Connected
+2025-03-20 21:23:30.590000+00:00,INFO ,LOCAL_AGENT,"LocalAgent sending: {""features-set"":{""bouncing"":""1""}}"
+2025-03-20 21:23:30.595000+00:00,INFO ,LOCAL_AGENT:STATUS,"StatusMessage{State:connected,Features:Features{},Reason:null,SwitchTo:,ConnectionDetails:ConnectionDetails{DeviceIp:174.234.11.233,DeviceCountry:US,ServerIpv4:138.199.21.196,ServerIpv6:2a02:6ea0:d33b:2105::13,},FeaturesStatistics:null,}"
+2025-03-20 21:23:30.599000+00:00,INFO ,CONN:STATE_CHANGED,"Connected, internal state: CONNECTED, backend: WireGuard, fallback active: null"
+2025-03-20 21:23:30.627000+00:00,INFO ,TELEMETRY,"event added, total: 3"
+2025-03-20 21:23:30.956000+00:00,INFO ,LOCAL_AGENT,"LocalAgent received: {""status"": {""state"": ""connected"", ""features"": {""netshield-level"": 0, ""split-tcp"": true, ""bouncing"": ""1"", ""randomized-nat"": true, ""port-forwarding"": false, ""jail"": false, ""safe-mode"": false}, ""restrictions"": [], ""client-device-ip"": ""174.234.11.233"", ""connection-details"": {""device-ip"": ""174.234.11.233"", ""device-country"": ""US"", ""server-ipv4"": ""138.199.21.195"", ""server-ipv6"": ""2a02:6ea0:d33b:2105::12""}}}"
+2025-03-20 21:23:30.959000+00:00,INFO ,LOCAL_AGENT,LocalAgent: waiting for message...
+2025-03-20 21:23:30.960000+00:00,INFO ,LOCAL_AGENT:STATE_CHANGED,Connected
+2025-03-20 21:23:30.965000+00:00,INFO ,LOCAL_AGENT:STATUS,"StatusMessage{State:connected,Features:Features{},Reason:null,SwitchTo:,ConnectionDetails:ConnectionDetails{DeviceIp:174.234.11.233,DeviceCountry:US,ServerIpv4:138.199.21.195,ServerIpv6:2a02:6ea0:d33b:2105::12,},FeaturesStatistics:null,}"
+2025-03-20 21:23:32.496000+00:00,INFO ,UI,App in background
+2025-03-20 21:23:32.500000+00:00,INFO ,APP.PERIODIC,conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d]
+2025-03-20 21:23:33.156000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:23:33.177000+00:00,INFO ,APP,EventWorkerManager already enqueued: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:23:58.110000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/stats/multiple (auth msrww...)
+2025-03-20 21:23:59.995000+00:00,INFO ,API:RESPONSE,200  POST https://vpn-api.proton.me/data/v1/stats/multiple (1883ms)
+2025-03-20 21:24:00.716000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/metrics (auth msrww...)
+2025-03-20 21:24:01.305000+00:00,INFO ,API:RESPONSE,200  POST https://vpn-api.proton.me/data/v1/metrics (587ms)
+2025-03-20 21:25:23.328000+00:00,INFO ,APP,EventWorker doWork: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:25:23.452000+00:00,INFO ,APP,EventManager fetch: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:25:23.951000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (auth r7ruo...)
+2025-03-20 21:25:25.826000+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (1874ms)
+2025-03-20 21:25:25.854000+00:00,INFO ,APP,EventManager notifyPrepare: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:25:25.878000+00:00,INFO ,APP,EventManager notifyEvents: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:25:25.887000+00:00,INFO ,APP,EventManager notifySuccess: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:25:25.894000+00:00,INFO ,APP,EventManager notifyComplete: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:25:25.902000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:25:25.930000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:25:30.194000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending handshake initiation
+2025-03-20 21:25:30.512000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Received handshake response
+2025-03-20 21:25:30.514000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending keepalive packet
+2025-03-20 21:27:30.540000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending handshake initiation
+2025-03-20 21:27:30.700000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Received handshake response
+2025-03-20 21:27:30.700000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending keepalive packet
+2025-03-20 21:29:34.241000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending handshake initiation
+2025-03-20 21:29:34.510000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Received handshake response
+2025-03-20 21:29:34.511000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending keepalive packet
+2025-03-20 21:31:30.304000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending keepalive packet
+2025-03-20 21:31:40.512000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending keepalive packet
+2025-03-20 21:31:40.515000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending handshake initiation
+2025-03-20 21:31:40.747000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Received handshake response
+2025-03-20 21:31:40.748000+00:00,INFO ,PROTOCOL,peer(ZQ/K…PKW8) - Sending keepalive packet
+2025-03-20 21:32:09.750000+00:00,INFO ,APP,"EventManager enqueueOrStop (true, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:32:09.800000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:09.887000+00:00,INFO ,UI,App in foreground: MainActivity 2025-03-20
+2025-03-20 21:32:09.912000+00:00,INFO ,APP,EventWorker doWork: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:09.918000+00:00,INFO ,APP,EventManager fetch: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:09.962000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d]"
+2025-03-20 21:32:09.965000+00:00,INFO ,APP.PERIODIC,executing action vpn_info
+2025-03-20 21:32:10.058000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (auth r7ruo...)
+2025-03-20 21:32:10.082000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/vpn/v2 (auth r7ruo...)
+2025-03-20 21:32:11.031000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/stats/multiple (auth msrww...)
+2025-03-20 21:32:11.737000+00:00,INFO ,API:RESPONSE,200  POST https://vpn-api.proton.me/data/v1/stats/multiple (702ms)
+2025-03-20 21:32:11.805000+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (1744ms)
+2025-03-20 21:32:11.840000+00:00,INFO ,APP,EventManager notifyPrepare: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:11.861000+00:00,INFO ,APP,EventManager notifyEvents: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:11.880000+00:00,INFO ,APP,EventManager notifySuccess: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:11.889000+00:00,INFO ,APP,EventManager notifyComplete: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:11.909000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:32:11.948000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:11.960000+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/vpn/v2 (1877ms)
+2025-03-20 21:32:13.113000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/stats/multiple (auth msrww...)
+2025-03-20 21:32:13.484000+00:00,INFO ,APP,Could not send telemetry events.
+2025-03-20 21:32:14.480000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/stats/multiple (auth msrww...)
+2025-03-20 21:32:15.345000+00:00,INFO ,API:RESPONSE,200  POST https://vpn-api.proton.me/data/v1/stats/multiple (863ms)
+2025-03-20 21:32:17.630000+00:00,INFO ,UI,App in background
+2025-03-20 21:32:17.630000+00:00,INFO ,APP.PERIODIC,conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d]
+2025-03-20 21:32:18.301000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:32:18.317000+00:00,INFO ,APP,EventWorkerManager already enqueued: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:18.825000+00:00,INFO ,APP,"EventManager enqueueOrStop (true, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:32:18.830000+00:00,INFO ,UI,App in foreground: MainActivity 2025-03-20
+2025-03-20 21:32:18.832000+00:00,INFO ,APP.PERIODIC,"conditions change: [com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isInForeground$$inlined$map$1@9dc2244, com.protonvpn.android.appconfig.periodicupdates.CommonUpdateConditionsModule$isLoggedIn$$inlined$map$1@9c37f2d]"
+2025-03-20 21:32:18.873000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:18.916000+00:00,INFO ,APP,EventWorker doWork: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:18.919000+00:00,INFO ,APP,EventManager fetch: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:18.966000+00:00,INFO ,API:REQUEST,GET https://vpn-api.proton.me/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (auth r7ruo...)
+2025-03-20 21:32:19.656000+00:00,INFO ,API:RESPONSE,200  GET https://vpn-api.proton.me/core/v5/events/zBEypW1X62LI8FxbCj8vKLpgKKYFL7kGuyIN8164u2rc9FHdAQK809UeGTafpCmUnmvOyKhkx-wplpffZtEoNQ== (689ms)
+2025-03-20 21:32:19.666000+00:00,INFO ,APP,EventManager notifyPrepare: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:19.678000+00:00,INFO ,APP,EventManager notifyEvents: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:19.691000+00:00,INFO ,APP,EventManager notifySuccess: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:19.699000+00:00,INFO ,APP,EventManager notifyComplete: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:19.706000+00:00,INFO ,APP,"EventManager enqueueOrStop (false, false): Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))"
+2025-03-20 21:32:19.725000+00:00,INFO ,APP,EventWorkerManager enqueue: Core(userId=UserId(id=MjL-xPNTPHNny_vHuhvf0GRXVDjO6rVPawMgYDxy7f39weZa0R4tDcycjruHemt9d1HKXHsqWYaQ0bzWHVGe0Q==))
+2025-03-20 21:32:19.950000+00:00,INFO ,API:REQUEST,POST https://vpn-api.proton.me/data/v1/stats/multiple (auth msrww...)
+2025-03-20 21:32:20.102000+00:00,INFO ,UI,App in foreground: LogActivity 2025-03-20
+2025-03-20 21:32:20.571000+00:00,INFO ,API:RESPONSE,200  POST https://vpn-api.proton.me/data/v1/stats/multiple (611ms)

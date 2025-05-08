@@ -1,0 +1,139 @@
+Anomalous Log Entries
+"debugDisplayModeSetByBackdoor=false
+"
+"02-16 02:55:05.768  1000 16705 16705 W TileUtils: Found com.motorola.coresettingsext.PhishingDetectionSettings for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } is primary profile only, skip loading tile for uid 10
+"
+"02-16 02:55:05.768  1000 16705 16705 W TileUtils: Found com.motorola.coresettingsext.LegacyPhishingDetectionSettings for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } is primary profile only, skip loading tile for uid 10
+"
+"02-16 02:55:06.995  1000 16705 16957 W TileUtils: Found com.motorola.coresettingsext.PhishingDetectionSettings for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } is primary profile only, skip loading tile for uid 10
+"
+"02-16 02:55:06.995  1000 16705 16957 W TileUtils: Found com.motorola.coresettingsext.LegacyPhishingDetectionSettings for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } is primary profile only, skip loading tile for uid 10
+"
+"02-16 02:55:09.988  1000 16705 17412 W TileUtils: Found com.motorola.coresettingsext.PhishingDetectionSettings for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } is primary profile only, skip loading tile for uid 10
+"
+"02-16 02:55:09.988  1000 16705 17412 W TileUtils: Found com.motorola.coresettingsext.LegacyPhishingDetectionSettings for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } is primary profile only, skip loading tile for uid 10
+"
+"02-16 02:55:11.678  1000 16705 17412 W TileUtils: Found com.motorola.coresettingsext.PhishingDetectionSettings for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } is primary profile only, skip loading tile for uid 10
+"
+"02-16 02:55:11.679  1000 16705 17412 W TileUtils: Found com.motorola.coresettingsext.LegacyPhishingDetectionSettings for intent Intent { act=com.android.settings.action.EXTRA_SETTINGS } is primary profile only, skip loading tile for uid 10
+"
+"02-16 02:39:22.617  1000  1934  2208 I wm_destroy_activity: [10,5007374,960,com.motorola.securityhubext/.PhishingDetectionActivity,finish-imm:idle,0]
+"
+"02-16 02:39:22.622 1010369  1650  1650 I wm_on_stop_called: [5007374,com.motorola.securityhubext.PhishingDetectionActivity,LIFECYCLER_STOP_ACTIVITY,1]
+"
+"02-16 02:39:22.628 1010369  1650  1650 I wm_on_destroy_called: [5007374,com.motorola.securityhubext.PhishingDetectionActivity,performDestroy,4]
+"
+"02-16 02:43:58.750  1000  1934  4178 I wm_create_activity: [0,104042013,968,com.motorola.securityhubext/.PhishingDetectionActivity,com.motorola.intent.action.EXECUTE_PHISHING_DETECTION,NULL,NULL,8388608,0]
+"
+"02-16 02:43:58.785  1000  1934  2219 I am_proc_start: [0,8203,10369,com.motorola.securityhubext,next-top-activity,{com.motorola.securityhubext/com.motorola.securityhubext.PhishingDetectionActivity}]
+"
+"02-16 02:43:58.823  1000  1934  4178 I wm_restart_activity: [0,104042013,968,com.motorola.securityhubext/.PhishingDetectionActivity,0]
+"
+"02-16 02:43:58.824  1000  1934  4178 I wm_set_resumed_activity: [0,com.motorola.securityhubext/.PhishingDetectionActivity,minimalResumeActivityLocked - onActivityStateChanged,0]
+"
+"02-16 02:43:58.936 10369  8203  8203 I wm_on_create_called: [104042013,com.motorola.securityhubext.PhishingDetectionActivity,performCreate,30,0]
+"
+"02-16 02:43:58.942 10369  8203  8203 I wm_on_start_called: [104042013,com.motorola.securityhubext.PhishingDetectionActivity,handleStartActivity,5]
+"
+"02-16 02:43:58.951 10369  8203  8203 I wm_on_resume_called: [104042013,com.motorola.securityhubext.PhishingDetectionActivity,RESUME_ACTIVITY,0,0]
+"
+"02-16 02:43:58.979 10369  8203  8203 I wm_on_top_resumed_gained_called: [104042013,com.motorola.securityhubext.PhishingDetectionActivity,topStateChangedWhenResumed,0]
+"
+"02-16 02:43:59.001  1000  1934  2209 I input_focus: [Focus request ee30cf7 com.motorola.securityhubext/com.motorola.securityhubext.PhishingDetectionActivity,reason=UpdateInputWindows]
+"
+"02-16 02:43:59.117  1000  1934  2202 I sysui_multi_action: [319,370,322,366,325,1696,757,761,758,7,759,2,806,com.motorola.securityhubext,871,com.motorola.securityhubext.PhishingDetectionActivity,904,com.google.android.googlequicksearchbox,905,0,945,96,1320,8,1321,5]
+"
+"02-16 02:43:59.119  1000  1934  2202 I wm_activity_launch_time: [0,104042013,com.motorola.securityhubext/.PhishingDetectionActivity,366]
+"
+"02-16 02:43:59.149  1000  1934  2567 I input_focus: [Focus entering ee30cf7 com.motorola.securityhubext/com.motorola.securityhubext.PhishingDetectionActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+"
+"02-16 02:43:59.800  1000  1934  4178 I wm_finish_activity: [0,104042013,968,com.motorola.securityhubext/.PhishingDetectionActivity,app-request,0]
+"
+"02-16 02:43:59.806  1000  1934  4178 I wm_pause_activity: [0,104042013,com.motorola.securityhubext/.PhishingDetectionActivity,userLeaving=false,finish,0]
+"
+"02-16 02:43:59.856 10369  8203  8203 I wm_on_top_resumed_lost_called: [104042013,com.motorola.securityhubext.PhishingDetectionActivity,topStateChangedWhenResumed,0]
+"
+"02-16 02:43:59.859 10369  8203  8203 I wm_on_paused_called: [104042013,com.motorola.securityhubext.PhishingDetectionActivity,performPause,0,0]
+"
+"02-16 02:43:59.859  1000  1934  3692 I wm_add_to_stopping: [0,104042013,com.motorola.securityhubext/.PhishingDetectionActivity,completeFinishing,0]
+"
+"02-16 02:43:59.868  1000  1934  2567 I input_focus: [Focus leaving ee30cf7 com.motorola.securityhubext/com.motorola.securityhubext.PhishingDetectionActivity (server),reason=NO_WINDOW]
+"
+"02-16 02:44:00.241  1000  1934  2208 I wm_rm_from_stopping: [0,104042013,com.motorola.securityhubext/.PhishingDetectionActivity,processStoppingAndFinishingActivities,0,true]
+"
+"02-16 02:44:00.241  1000  1934  2208 I wm_destroy_activity: [0,104042013,968,com.motorola.securityhubext/.PhishingDetectionActivity,finish-imm:transit,0]
+"
+"02-16 02:44:00.266 10369  8203  8203 I wm_on_stop_called: [104042013,com.motorola.securityhubext.PhishingDetectionActivity,LIFECYCLER_STOP_ACTIVITY,1]
+"
+"02-16 02:44:00.273 10369  8203  8203 I wm_on_destroy_called: [104042013,com.motorola.securityhubext.PhishingDetectionActivity,performDestroy,6]
+"
+"02-16 02:49:23.037  1000  1934  3009 I wm_create_activity: [10,176585453,972,com.motorola.securityhubext/.PhishingDetectionActivity,com.motorola.intent.action.EXECUTE_PHISHING_DETECTION,NULL,NULL,8388608,0]
+"
+"02-16 02:49:23.060  1000  1934  2219 I am_proc_start: [10,11627,1010369,com.motorola.securityhubext,next-top-activity,{com.motorola.securityhubext/com.motorola.securityhubext.PhishingDetectionActivity}]
+"
+"02-16 02:49:23.103  1000  1934  5574 I wm_restart_activity: [10,176585453,972,com.motorola.securityhubext/.PhishingDetectionActivity,0]
+"
+"02-16 02:49:23.104  1000  1934  5574 I wm_set_resumed_activity: [10,com.motorola.securityhubext/.PhishingDetectionActivity,minimalResumeActivityLocked - onActivityStateChanged,0]
+"
+"02-16 02:49:23.235 1010369 11627 11627 I wm_on_create_called: [176585453,com.motorola.securityhubext.PhishingDetectionActivity,performCreate,46,0]
+"
+"02-16 02:49:23.244 1010369 11627 11627 I wm_on_start_called: [176585453,com.motorola.securityhubext.PhishingDetectionActivity,handleStartActivity,8]
+"
+"02-16 02:49:23.247 1010369 11627 11627 I wm_on_resume_called: [176585453,com.motorola.securityhubext.PhishingDetectionActivity,RESUME_ACTIVITY,0,0]
+"
+"02-16 02:49:23.264 1010369 11627 11627 I wm_on_top_resumed_gained_called: [176585453,com.motorola.securityhubext.PhishingDetectionActivity,topStateChangedWhenResumed,0]
+"
+"02-16 02:49:23.288  1000  1934  2209 I input_focus: [Focus request 61be744 com.motorola.securityhubext/com.motorola.securityhubext.PhishingDetectionActivity,reason=UpdateInputWindows]
+"
+"02-16 02:49:23.342  1000  1934  2202 I sysui_multi_action: [319,334,322,327,325,2020,757,761,758,7,759,2,806,com.motorola.securityhubext,871,com.motorola.securityhubext.PhishingDetectionActivity,904,com.openai.chatgpt,905,0,945,99,1320,8,1321,5]
+"
+"02-16 02:49:23.345  1000  1934  2202 I wm_activity_launch_time: [10,176585453,com.motorola.securityhubext/.PhishingDetectionActivity,327]
+"
+"02-16 02:49:23.352  1000  1934  2567 I input_focus: [Focus entering 61be744 com.motorola.securityhubext/com.motorola.securityhubext.PhishingDetectionActivity (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+"
+"02-16 02:49:23.685  1000  1934  6232 I wm_finish_activity: [10,176585453,972,com.motorola.securityhubext/.PhishingDetectionActivity,app-request,0]
+"
+"02-16 02:49:23.690  1000  1934  6232 I wm_pause_activity: [10,176585453,com.motorola.securityhubext/.PhishingDetectionActivity,userLeaving=false,finish,0]
+"
+"02-16 02:49:23.714 1010369 11627 11627 I wm_on_top_resumed_lost_called: [176585453,com.motorola.securityhubext.PhishingDetectionActivity,topStateChangedWhenResumed,0]
+"
+"02-16 02:49:23.715 1010369 11627 11627 I wm_on_paused_called: [176585453,com.motorola.securityhubext.PhishingDetectionActivity,performPause,0,0]
+"
+"02-16 02:49:23.716  1000  1934  6232 I wm_add_to_stopping: [10,176585453,com.motorola.securityhubext/.PhishingDetectionActivity,completeFinishing,0]
+"
+"02-16 02:49:23.718  1000  1934  2567 I input_focus: [Focus leaving 61be744 com.motorola.securityhubext/com.motorola.securityhubext.PhishingDetectionActivity (server),reason=NO_WINDOW]
+"
+"02-16 02:49:24.794  1000  1934  2208 I wm_rm_from_stopping: [10,176585453,com.motorola.securityhubext/.PhishingDetectionActivity,processStoppingAndFinishingActivities,0,true]
+"
+"02-16 02:49:24.794  1000  1934  2208 I wm_destroy_activity: [10,176585453,972,com.motorola.securityhubext/.PhishingDetectionActivity,finish-imm:idle,0]
+"
+"02-16 02:49:24.823 1010369 11627 11627 I wm_on_stop_called: [176585453,com.motorola.securityhubext.PhishingDetectionActivity,LIFECYCLER_STOP_ACTIVITY,1]
+"
+"02-16 02:49:24.827 1010369 11627 11627 I wm_on_destroy_called: [176585453,com.motorola.securityhubext.PhishingDetectionActivity,performDestroy,2]
+"
+"            numTracks=1 writeErrors=0 underruns=1 overruns=22
+"
+"            numTracks=0 writeErrors=0 underruns=0 overruns=0
+"
+"            numTracks=0 writeErrors=0 underruns=0 overruns=0
+"
+"  02-16 02:54:46.638 result:232 { mediametrics_audiothread_reported:193 timestamp_nanos:1739699687000000000 package_name:audioserver package_version_code:0 media_apex_version:0 type:RECORD framecount:-1 samplerate:-1 work_millis_hist: latency_millis_hist: warmup_millis_hist: underruns:-1 overruns:-1 active_millis:-1 duration_millis:-1 id:150 port_id:-1 sample_rate:8000 channel_mask:-1 encoding:AUDIO_FORMAT_PCM_16_BIT frame_count:160 output_device:Empty device types input_device:AUDIO_DEVICE_NONE io_jitter_mean_millis:-0.0039632 io_jitter_stddev_millis:0.533849 process_time_mean_millis:0.300013 process_time_stddev_millis:0.179704 timestamp_jitter_mean_millis:-0.000211804 timestamp_jitter_stddev_millis:0.239244 latency_mean_millis:0.416803 latency_stddev_millis:0.328136 }
+"
+"_id:53 name:phishing_detection_enabled pkg:com.motorola.coresettingsext value:1 default:1 defaultSystemSet:true
+"
+"      com.motorola.intent.action.PHISHING_DETECTION_SETTINGS:
+"
+"        e9c6e82 com.motorola.coresettingsext/.CoreSettingsExt$PhishingDetectionActivity
+"
+"        ca6f0ce com.motorola.coresettingsext/.LegacyPhishingDetectionSettings
+"
+"        ec39dd0 com.motorola.coresettingsext/.PhishingDetectionSettings
+"
+"        e9c6e82 com.motorola.coresettingsext/.CoreSettingsExt$PhishingDetectionActivity
+"
+"      com.motorola.intent.action.EXECUTE_PHISHING_DETECTION:
+"
+"        5f6bb86 com.motorola.securityhubext/.PhishingDetectionActivity
+"
+"      com.motorola.aiservice.PHISHING:
+"
