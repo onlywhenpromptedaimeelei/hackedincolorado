@@ -1,0 +1,25 @@
+[*] Verifying ADB connection...
+[*] Uninstalling known surveillance packages...
+⚠️ com.samsung.android.arzone not found or protected
+⚠️ com.samsung.android.scloud not found or protected
+⚠️ com.samsung.android.themestore not found or protected
+⚠️ com.samsung.android.game.gamehome not found or protected
+⚠️ com.samsung.android.drivelink not found or protected
+✅ com.samsung.android.app.watchmanager removed
+⚠️ com.samsung.android.beaconmanager not found or protected
+⚠️ com.samsung.android.allshare.service.mediashare not found or protected
+✅ com.samsung.android.spay removed
+⚠️ com.samsung.android.spayfw not found or protected
+⚠️ com.sec.android.app.samsungapps not found or protected
+⚠️ com.facebook.appmanager not found or protected
+⚠️ com.facebook.services not found or protected
+⚠️ com.facebook.system not found or protected
+⚠️ com.facebook.katana not found or protected
+✅ com.google.android.youtube removed
+✅ com.google.android.apps.maps removed
+⚠️ com.google.android.as.oss not found or protected
+[*] Disabling mirrors, casting, and overlays...
+[*] Disabling USB debug and dev bridge...
+[*] Removing secondary users...
+[*] Final installed packages:
+[+] Samsung Hard Severance Complete. Rebooting device...

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="undirected"><node id="Non-Biased Version"/>
+<node id="Logso"/>
+<node id="Recursive GPT"/>
+<node id="Firearm Resolve"/>
+<node id="Digital Security"/>
+<node id="Eviction"/>
+<node id="Artistic Collection"/>
+<node id="MirrorNode Aimee"/>
+<node id="Device Intrusion"/>
+<node id="GIPHI Network Map"/>
+<edge source="Non-Biased Version" target="Logso"/>
+<edge source="Non-Biased Version" target="Artistic Collection"/>
+<edge source="Non-Biased Version" target="GIPHI Network Map"/>
+<edge source="Logso" target="Recursive GPT"/>
+<edge source="Recursive GPT" target="MirrorNode Aimee"/>
+<edge source="Recursive GPT" target="GIPHI Network Map"/>
+<edge source="Firearm Resolve" target="Device Intrusion"/>
+<edge source="Digital Security" target="Device Intrusion"/>
+<edge source="Digital Security" target="Eviction"/>
+<edge source="Artistic Collection" target="MirrorNode Aimee"/>
+</graph></graphml>
