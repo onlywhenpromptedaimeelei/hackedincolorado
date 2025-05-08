@@ -1,0 +1,153 @@
+
+==== DEVICE ADMIN APPS ====
+Unknown command: list
+Usage: 
+  help
+    Prints this help text.
+
+  is-operation-safe <OPERATION_ID>
+    Checks if the give operation is safe 
+
+  is-operation-safe-by-reason <REASON_ID>
+    Checks if the operations are safe for the given reason
+
+  set-operation-safe <OPERATION_ID> <REASON_ID>
+    Emulates the result of the next call to check if the given operation is safe 
+
+  list-owners
+    Lists the device / profile owners per user 
+
+  list-policy-exempt-apps
+    Lists the apps that are exempt from policies
+
+  set-active-admin [ --user <USER_ID> | current ] <COMPONENT>
+    Sets the given component as active admin for an existing user.
+
+  set-device-owner [ --user <USER_ID> | current *EXPERIMENTAL* ] [ --name <NAME> ] [ --device-owner-only ]<COMPONENT>
+    Sets the given component as active admin, and its package as device owner.
+
+  set-profile-owner [ --user <USER_ID> | current ] [ --name <NAME> ] <COMPONENT>
+    Sets the given component as active admin and profile owner for an existing user.
+
+  remove-active-admin [ --user <USER_ID> | current ] [ --name <NAME> ] <COMPONENT>
+    Disables an active admin, the admin must have declared android:testOnly in the application in its manifest. This will also remove device and profile owners.
+
+  clear-freeze-period-record
+    Clears framework-maintained record of past freeze periods that the device went through. For use during feature development to prevent triggering restriction on setting freeze periods.
+
+  force-network-logs
+    Makes all network logs available to the DPC and triggers DeviceAdminReceiver.onNetworkLogsAvailable() if needed.
+
+  force-security-logs
+    Makes all security logs available to the DPC and triggers DeviceAdminReceiver.onSecurityLogsAvailable() if needed.
+
+  mark-profile-owner-on-organization-owned-device [ --user <USER_ID> | current ] <COMPONENT>
+    Marks the profile owner of the given user as managing an organization-owneddevice. That will give it access to device identifiers (such as serial number, IMEI and MEID), as well as other privileges.
+
+
+==== USER PROFILES ====
+Users:
+	UserInfo{0:Bert Martinez:c13} running
+
+==== DISABLED PACKAGES ====
+package:com.google.audio.hearing.visualization.accessibility.scribe
+package:com.workday.workdroidapp
+package:com.google.ar.lens
+package:tv.pluto.android
+package:com.rentcheck.app
+package:com.samsung.cmfa.AuthTouch
+package:com.facebook.katana
+package:com.youmeforever.readscripture
+package:com.samsung.android.themecenter
+package:com.glasswire.android
+package:net.megawave.flashalerts
+package:com.merriamwebster
+package:com.particlenews.newsbreak
+package:com.google.android.apps.authenticator2
+package:com.greenleaf.android.translator.enes.a
+package:com.tortel.syslog
+package:com.google.android.gms.supervision
+package:com.samsung.android.cmfa.framework
+package:com.samsung.android.peripheral.framework
+package:com.streema.podcast
+
+==== PACKAGES WITHOUT LAUNCHER INTENT (HIDDEN APPS) ====
+com.sec.android.RilServiceModeApp
+
+==== RECURSIVE REMOVAL OF FLAGGED PACKAGES ====
+Processing com.samsung.android.tvplus
+✅ com.samsung.android.tvplus no longer installed.
+Processing com.samsung.android.aremoji
+✅ com.samsung.android.aremoji uninstalled successfully.
+Processing com.samsung.android.app.dressroom
+✅ com.samsung.android.app.dressroom uninstalled successfully.
+Processing com.samsung.android.app.cocktailbarservice
+✅ com.samsung.android.app.cocktailbarservice uninstalled successfully.
+Processing com.samsung.android.app.appsedge
+✅ com.samsung.android.app.appsedge uninstalled successfully.
+Processing com.samsung.android.app.smartcapture
+✅ com.samsung.android.app.smartcapture uninstalled successfully.
+Processing com.samsung.android.storyservice
+✅ com.samsung.android.storyservice no longer installed.
+Processing com.samsung.android.app.spage
+✅ com.samsung.android.app.spage uninstalled successfully.
+Processing com.samsung.android.app.taskedge
+✅ com.samsung.android.app.taskedge uninstalled successfully.
+Processing com.samsung.android.beaconmanager
+✅ com.samsung.android.beaconmanager uninstalled successfully.
+Processing com.samsung.android.scloud
+✅ com.samsung.android.scloud uninstalled successfully.
+Processing com.samsung.android.privateshare
+✅ com.samsung.android.privateshare uninstalled successfully.
+Processing com.samsung.android.kidsinstaller
+✅ com.samsung.android.kidsinstaller uninstalled successfully.
+Processing com.samsung.android.game.gos
+✅ com.samsung.android.game.gos uninstalled successfully.
+Processing com.samsung.android.allshare.service.mediashare
+✅ com.samsung.android.allshare.service.mediashare uninstalled successfully.
+Processing com.samsung.android.app.sharelive
+✅ com.samsung.android.app.sharelive uninstalled successfully.
+Processing com.sec.android.app.samsungapps
+✅ com.sec.android.app.samsungapps uninstalled successfully.
+Processing com.samsung.android.arzone
+✅ com.samsung.android.arzone uninstalled successfully.
+Processing com.samsung.android.game.gamehome
+✅ com.samsung.android.game.gamehome uninstalled successfully.
+Processing com.samsung.android.svoice
+✅ com.samsung.android.svoice no longer installed.
+Processing com.samsung.android.drivelink
+✅ com.samsung.android.drivelink no longer installed.
+Processing com.samsung.android.messaging
+✅ com.samsung.android.messaging uninstalled successfully.
+Processing com.samsung.android.email.provider
+✅ com.samsung.android.email.provider uninstalled successfully.
+Processing com.samsung.android.app.watchmanagerstub
+✅ com.samsung.android.app.watchmanagerstub uninstalled successfully.
+Processing com.samsung.android.app.watchmanager
+✅ com.samsung.android.app.watchmanager no longer installed.
+Processing com.samsung.android.smartmirroring
+✅ com.samsung.android.smartmirroring uninstalled successfully.
+Processing com.samsung.android.app.parentalcare
+✅ com.samsung.android.app.parentalcare uninstalled successfully.
+Processing com.samsung.android.app.clockpack
+✅ com.samsung.android.app.clockpack no longer installed.
+Processing com.samsung.android.app.routines
+✅ com.samsung.android.app.routines uninstalled successfully.
+Processing com.samsung.android.samsungpassautofill
+✅ com.samsung.android.samsungpassautofill uninstalled successfully.
+Processing com.samsung.android.spayfw
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...
+⚠️ com.samsung.android.spayfw still installed, disabling...

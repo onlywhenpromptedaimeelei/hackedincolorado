@@ -1,0 +1,204 @@
+
+==== DEVICE ADMIN APPS ====
+
+==== USER PROFILES ====
+
+==== DISABLED PACKAGES ====
+
+==== PACKAGES WITHOUT LAUNCHER INTENT (HIDDEN APPS) ====
+
+==== RECURSIVE REMOVAL OF FLAGGED PACKAGES ====
+Processing com.samsung.android.tvplus
+✅ com.samsung.android.tvplus no longer installed.
+Processing com.samsung.android.themecenter
+✅ com.samsung.android.themecenter no longer installed.
+Processing com.samsung.android.aremoji
+✅ com.samsung.android.aremoji no longer installed.
+Processing com.samsung.android.app.dressroom
+✅ com.samsung.android.app.dressroom no longer installed.
+Processing com.samsung.android.app.cocktailbarservice
+✅ com.samsung.android.app.cocktailbarservice no longer installed.
+Processing com.samsung.android.app.appsedge
+✅ com.samsung.android.app.appsedge no longer installed.
+Processing com.samsung.android.app.smartcapture
+✅ com.samsung.android.app.smartcapture no longer installed.
+Processing com.samsung.android.storyservice
+✅ com.samsung.android.storyservice no longer installed.
+Processing com.samsung.android.app.spage
+✅ com.samsung.android.app.spage no longer installed.
+Processing com.samsung.android.app.taskedge
+✅ com.samsung.android.app.taskedge no longer installed.
+Processing com.samsung.android.beaconmanager
+✅ com.samsung.android.beaconmanager no longer installed.
+Processing com.samsung.android.scloud
+✅ com.samsung.android.scloud no longer installed.
+Processing com.samsung.android.privateshare
+✅ com.samsung.android.privateshare no longer installed.
+Processing com.samsung.android.kidsinstaller
+✅ com.samsung.android.kidsinstaller no longer installed.
+Processing com.samsung.android.game.gos
+✅ com.samsung.android.game.gos no longer installed.
+Processing com.samsung.android.allshare.service.mediashare
+✅ com.samsung.android.allshare.service.mediashare no longer installed.
+Processing com.samsung.android.app.sharelive
+✅ com.samsung.android.app.sharelive no longer installed.
+Processing com.sec.android.app.samsungapps
+✅ com.sec.android.app.samsungapps no longer installed.
+Processing com.samsung.android.arzone
+✅ com.samsung.android.arzone no longer installed.
+Processing com.samsung.android.game.gamehome
+✅ com.samsung.android.game.gamehome no longer installed.
+Processing com.samsung.android.svoice
+✅ com.samsung.android.svoice no longer installed.
+Processing com.samsung.android.drivelink
+✅ com.samsung.android.drivelink no longer installed.
+Processing com.samsung.android.messaging
+✅ com.samsung.android.messaging no longer installed.
+Processing com.samsung.android.email.provider
+✅ com.samsung.android.email.provider no longer installed.
+Processing com.samsung.android.app.watchmanagerstub
+✅ com.samsung.android.app.watchmanagerstub no longer installed.
+Processing com.samsung.android.app.watchmanager
+✅ com.samsung.android.app.watchmanager no longer installed.
+Processing com.samsung.android.smartmirroring
+✅ com.samsung.android.smartmirroring no longer installed.
+Processing com.samsung.android.app.parentalcare
+✅ com.samsung.android.app.parentalcare no longer installed.
+Processing com.samsung.android.app.clockpack
+✅ com.samsung.android.app.clockpack no longer installed.
+Processing com.samsung.android.app.routines
+✅ com.samsung.android.app.routines no longer installed.
+Processing com.samsung.android.samsungpassautofill
+✅ com.samsung.android.samsungpassautofill no longer installed.
+Processing com.samsung.android.spayfw
+✅ com.samsung.android.spayfw no longer installed.
+Processing com.samsung.android.spay
+✅ com.samsung.android.spay no longer installed.
+Processing com.samsung.android.smartswitchassistant
+✅ com.samsung.android.smartswitchassistant no longer installed.
+Processing com.samsung.android.app.find
+✅ com.samsung.android.app.find no longer installed.
+Processing com.samsung.android.app.notes
+✅ com.samsung.android.app.notes no longer installed.
+Processing com.samsung.android.app.omcagent
+✅ com.samsung.android.app.omcagent no longer installed.
+Processing com.samsung.android.app.updatecenter
+✅ com.samsung.android.app.updatecenter no longer installed.
+Processing com.samsung.android.app.reminder
+✅ com.samsung.android.app.reminder no longer installed.
+Processing com.samsung.android.app.soundpicker
+✅ com.samsung.android.app.soundpicker no longer installed.
+Processing com.samsung.android.app.clipboardedge
+✅ com.samsung.android.app.clipboardedge no longer installed.
+Processing com.samsung.android.app.dofviewer
+✅ com.samsung.android.app.dofviewer no longer installed.
+Processing com.samsung.android.appseparation
+✅ com.samsung.android.appseparation no longer installed.
+Processing com.samsung.android.app.telephonyui
+✅ com.samsung.android.app.telephonyui no longer installed.
+Processing com.samsung.android.app.telephonyui.esimclient
+✅ com.samsung.android.app.telephonyui.esimclient no longer installed.
+Processing com.samsung.android.calendar
+✅ com.samsung.android.calendar no longer installed.
+Processing com.samsung.android.contacts
+✅ com.samsung.android.contacts no longer installed.
+Processing com.samsung.android.email.provider
+✅ com.samsung.android.email.provider no longer installed.
+Processing com.samsung.android.honeyboard
+✅ com.samsung.android.honeyboard no longer installed.
+Processing com.samsung.android.mdx.kit
+✅ com.samsung.android.mdx.kit no longer installed.
+Processing com.samsung.android.mdx.quickboard
+✅ com.samsung.android.mdx.quickboard no longer installed.
+Processing com.samsung.android.mobileservice
+✅ com.samsung.android.mobileservice no longer installed.
+Processing com.samsung.android.oneconnect
+✅ com.samsung.android.oneconnect no longer installed.
+Processing com.samsung.android.providers.trash
+✅ com.samsung.android.providers.trash no longer installed.
+Processing com.samsung.android.samsungpass
+✅ com.samsung.android.samsungpass no longer installed.
+Processing com.samsung.android.scloud
+✅ com.samsung.android.scloud no longer installed.
+Processing com.samsung.android.secsoundpicker
+✅ com.samsung.android.secsoundpicker no longer installed.
+Processing com.samsung.android.setting.multisound
+✅ com.samsung.android.setting.multisound no longer installed.
+Processing com.samsung.android.shortcutbackupservice
+✅ com.samsung.android.shortcutbackupservice no longer installed.
+Processing com.samsung.android.smartcallprovider
+✅ com.samsung.android.smartcallprovider no longer installed.
+Processing com.samsung.android.smartface
+✅ com.samsung.android.smartface no longer installed.
+Processing com.samsung.android.smartface.overlay
+✅ com.samsung.android.smartface.overlay no longer installed.
+Processing com.samsung.android.stickercenter
+✅ com.samsung.android.stickercenter no longer installed.
+Processing com.samsung.android.svcagent
+✅ com.samsung.android.svcagent no longer installed.
+Processing com.samsung.android.voc
+✅ com.samsung.android.voc no longer installed.
+Processing com.samsung.android.wallpaper.res
+✅ com.samsung.android.wallpaper.res no longer installed.
+Processing com.samsung.android.widget.pictureframe
+✅ com.samsung.android.widget.pictureframe no longer installed.
+Processing com.samsung.android.wifi.ai
+✅ com.samsung.android.wifi.ai no longer installed.
+Processing com.samsung.android.wifi.decrease.scan.interval.resources
+✅ com.samsung.android.wifi.decrease.scan.interval.resources no longer installed.
+Processing com.samsung.android.wifi.h2e.resources
+✅ com.samsung.android.wifi.h2e.resources no longer installed.
+Processing com.samsung.android.wifi.increase.scan.interval.resources
+✅ com.samsung.android.wifi.increase.scan.interval.resources no longer installed.
+Processing com.samsung.android.wifi.p2paware.resources
+✅ com.samsung.android.wifi.p2paware.resources no longer installed.
+Processing com.samsung.android.wifi.resources
+✅ com.samsung.android.wifi.resources no longer installed.
+Processing com.samsung.android.wifi.saeupgradeoffload.resources
+✅ com.samsung.android.wifi.saeupgradeoffload.resources no longer installed.
+Processing com.samsung.android.wifi.softap.resources
+✅ com.samsung.android.wifi.softap.resources no longer installed.
+Processing com.samsung.android.wifi.softapwpathree.resources
+✅ com.samsung.android.wifi.softapwpathree.resources no longer installed.
+Processing com.pocketgeek.xfinity.android
+✅ com.pocketgeek.xfinity.android no longer installed.
+Processing com.xumo.xumo
+✅ com.xumo.xumo no longer installed.
+Processing com.peacocktv.peacockandroid
+✅ com.peacocktv.peacockandroid no longer installed.
+Processing com.xfinity.cloudtvr
+✅ com.xfinity.cloudtvr no longer installed.
+Processing com.xfinity.digitalhome
+✅ com.xfinity.digitalhome no longer installed.
+Processing com.xfinitymobile.cometcarrierservice
+✅ com.xfinitymobile.cometcarrierservice no longer installed.
+Processing com.gstarmc.android
+✅ com.gstarmc.android no longer installed.
+Processing com.facebook.appmanager
+✅ com.facebook.appmanager no longer installed.
+Processing com.facebook.services
+✅ com.facebook.services no longer installed.
+Processing com.facebook.system
+✅ com.facebook.system no longer installed.
+Processing com.facebook.katana
+✅ com.facebook.katana no longer installed.
+Processing com.test.LTEfunctionality
+✅ com.test.LTEfunctionality no longer installed.
+Processing com.sec.factory.camera
+✅ com.sec.factory.camera no longer installed.
+Processing com.sec.phone
+✅ com.sec.phone no longer installed.
+Processing com.sec.android.app.wlantest
+✅ com.sec.android.app.wlantest no longer installed.
+Processing com.sec.android.app.hwmoduletest
+✅ com.sec.android.app.hwmoduletest no longer installed.
+Processing com.sec.android.app.servicemodeapp
+✅ com.sec.android.app.servicemodeapp no longer installed.
+Processing com.sec.android.app.DataCreate
+✅ com.sec.android.app.DataCreate no longer installed.
+Processing com.samco.trackandgraph
+✅ com.samco.trackandgraph no longer installed.
+Processing de.mayle.screenprotection
+✅ de.mayle.screenprotection no longer installed.
+
+==== FINAL INSTALLED PACKAGES ====

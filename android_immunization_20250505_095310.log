@@ -1,0 +1,17 @@
+[*] Starting Android Immunization Protocol...
+[*] Blocking package reinstalls...
+[*] Scanning for hidden / launcherless apps...
+com.sec.android.RilServiceModeApp
+[*] Disabling hidden apps...
+🔒 com.sec.android.RilServiceModeApp disabled
+[*] User Profiles Summary:
+Users:
+	UserInfo{0:Owner:4c13} running
+[*] Final app state:
+package:com.android.chrome
+package:com.sec.android.RilServiceModeApp
+package:com.samsung.android.aremojieditor
+package:com.samsung.android.knox.zt.framework
+package:com.google.android.gms.supervision
+package:com.samsung.android.peripheral.framework
+package:com.sec.android.app.kidshome
