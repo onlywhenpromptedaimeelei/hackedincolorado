@@ -1,0 +1,23 @@
+Module metadata package name: com.google.android.modulemetadata
+Duration of 'DUMPSYS CRITICAL': 1.43s
+Duration of 'EVENT LOG': 0.06s
+Duration of 'STATS LOG': 0.01s
+Duration of 'RADIO LOG': 0.12s
+logcat: Logcat read failure: No such file or directory
+*** command 'logcat -L -b all -v threadtime -v printable -v uid -d *:v' failed: exit code 1
+Start thread pool:1
+Adding dir /data/anr/ (recursive: 1)
+Adding dir /cache/recovery (recursive: 1)
+Adding dir /data/misc/recovery (recursive: 1)
+Adding dir /data/misc/update_engine_log (recursive: 1)
+Adding dir /data/misc/update_engine/prefs (recursive: 1)
+Adding dir /data/misc/logd (recursive: 0)
+/data/misc/logd: No such file or directory
+Adding dir /data/misc/prereboot (recursive: 0)
+MOUNT INFO: 81 entries added to zip file
+Duration of 'LPDUMP': 1.03s
+Duration of 'DEVICE-MAPPER': 1.03s
+Adding dir /metadata/ota (recursive: 1)
+execvp on command 'iotop -n 1 -m 100' failed (error: No such file or directory)
+*** command 'iotop -n 1 -m 100' failed: exit code 1
+Duration of 'Dmabuf dump': 1.26s
