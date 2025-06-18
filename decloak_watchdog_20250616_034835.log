@@ -1,0 +1,404 @@
+=== DECLoak Watchdog Initiated ===
+Start Time: Mon Jun 16 03:48:35 MDT 2025
+[*] User Apps:
+com.sec.android.app.popupcalculator
+com.samsung.android.app.watchmanager
+com.openai.chatgpt
+[*] Active Services:
+  * ServiceRecord{8667b9a u0 com.osp.app.signin/androidx.room.MultiInstanceInvalidationService}
+  * ServiceRecord{d70a010 u0 com.samsung.android.honeyboard/.service.HoneyBoardService}
+  * ServiceRecord{e18bd85 u0 com.google.android.apps.messaging/com.google.android.ims.service.JibeService}
+  * ServiceRecord{e4e3ffd u0 com.google.android.networkstack.tethering/com.android.networkstack.tethering.TetheringService}
+  * ServiceRecord{dc225 u0 com.android.systemui/com.android.wm.shell.pip.PipMenuControlService}
+  * ServiceRecord{2a9c9cb u0 com.samsung.klmsagent/.service.KLMDebugService}
+  * ServiceRecord{d671e31 u0 com.android.bluetooth/com.samsung.bt.bluetoothcast.mcm.BluetoothAudioCastService}
+  * ServiceRecord{3c56248 u0 com.samsung.accessibility/.assistantmenu.serviceframework.AssistantMenuService}
+  * ServiceRecord{7096639 u0 com.sec.imsservice/com.sec.internal.ims.imsservice.SemCapabilityService}
+  * ServiceRecord{12ab5e4 u0 com.android.systemui/.keyguard.KeyguardService}
+  * ServiceRecord{313068e u0 com.android.bluetooth/.btservice.AdapterService}
+  * ServiceRecord{4f72192 u0 com.samsung.android.mcfds/.McfDeviceSyncService}
+  * ServiceRecord{6642620 u0 com.sec.epdg/.EpdgService}
+  * ServiceRecord{731fac3 u0 com.samsung.sec.android.teegris.tui_service/.TUIService}
+  * ServiceRecord{178ca70 u0 com.google.android.apps.messaging/com.google.android.ims.binding.SystemBindingService}
+  * ServiceRecord{ebdf208 u0 com.android.systemui/.wallpapers.ImageWallpaper}
+  * ServiceRecord{10bc667 u0 com.android.phone/com.android.internal.telephony.CellularNetworkService}
+  * ServiceRecord{471a95d u0 com.sec.imsservice/com.sec.internal.ims.imsservice.CapabilityService}
+  * ServiceRecord{b973152 u0 com.sec.location.nsflp2/.nsmonitor.NSMonitorService}
+  * ServiceRecord{ba2062 u0 com.samsung.android.wifi.ai/.WifiAiService}
+  * ServiceRecord{88258df u0 com.android.bluetooth/.gatt.GattService}
+  * ServiceRecord{52bda0e u0 com.sec.imsservice/com.sec.internal.imsphone.SecImsService}
+  * ServiceRecord{76a3585 u0 com.sec.epdg/.apassist.IwlanService.IwlanDataService}
+  * ServiceRecord{ff185b2 u0 com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionJobService}
+  * ServiceRecord{28f7850 u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService}
+  * ServiceRecord{c8566c9 u0 com.samsung.sdm/com.samsung.syncmlservice.SyncmlService}
+  * ServiceRecord{b9bec2c u0 com.wssyncmldm/com.idm.fotaagent.enabler.ui.notification.manager.NotificationId$PrimaryNotificationService}
+  * ServiceRecord{e914022 u0 com.verizon.mips.services/com.vzw.apnservice.VZWAPNServiceNew}
+  * ServiceRecord{8b69f91 u0 com.samsung.sec.android.application.csc/.service.CscUpdateService}
+  * ServiceRecord{7a55af8 u0 com.google.android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl}
+  * ServiceRecord{f0d6914 u0 com.android.server.telecom/com.samsung.server.telecom.SamsungTelecomInternalService}
+  * ServiceRecord{5370296 u0 com.sec.imsservice/com.sec.internal.ims.imsservice.ImsService}
+  * ServiceRecord{35935c4 u0 com.samsung.android.mcfserver/.McfService}
+  * ServiceRecord{f3827dd u0 com.google.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl}
+  * ServiceRecord{3ada0a0 u0 com.android.phone/com.android.internal.telephony.data.CellularDataService}
+  * ServiceRecord{9a4ff4a u0 com.google.android.googlequicksearchbox/com.google.android.hotword.service.HotwordService}
+  * ServiceRecord{b1e216f u0 com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService}
+  * ServiceRecord{c6e4bb3 u0 com.sec.sve/.service.SecVideoEngineService}
+  * ServiceRecord{bb8ee38 u0 com.android.systemui/.SystemUIService}
+  * ServiceRecord{3fbcde u0 com.android.se/.SecureElementService}
+  * ServiceRecord{282e001 u0 com.sec.android.app.launcher/com.android.launcher3.notification.NotificationListener}
+  * ServiceRecord{f4d6e0b u0 com.sec.tasmanager/.services.TmService}
+  * ServiceRecord{2006270 u0 com.google.android.ext.services/android.ext.services.notification.Assistant}
+  * ServiceRecord{31ab221 u0 com.samsung.android.svcagent/com.samsung.android.service.svcagent.MainService}
+  * ServiceRecord{b0bdf5e u0 com.android.systemui/.dump.SystemUIAuxiliaryDumpService}
+  * ServiceRecord{d29aaa2 u0 com.android.stk/.StkAppService}
+  * ServiceRecord{1d955f3 u0 android/com.android.server.DrmEventService}
+  * ServiceRecord{aafade0 u0 com.android.server.telecom/.components.TelecomService}
+  * ServiceRecord{603a1af u0 com.google.android.networkstack/com.android.server.NetworkStackService}
+  * ServiceRecord{b4e4372 u0 com.samsung.android.fmm/com.samsung.android.fme.offlinefinding.OfflineFindingService}
+  * ServiceRecord{3db8951 u0 com.android.systemui/com.android.wm.shell.splitscreen.SplitScreenProxyService}
+  * ServiceRecord{7a3eedd u0 com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService}
+  * ServiceRecord{4073b6a u0 com.android.phone/.vvm.RemoteVvmTaskManager}
+  * ServiceRecord{7a51c36 u0 com.android.location.fused/.FusedLocationService}
+  * ServiceRecord{99e6165 u0 com.android.ons/.OpportunisticNetworkService}
+  * ServiceRecord{a2b810f u0 com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl$EmptyService}
+  * ServiceRecord{100d135 u0 com.samsung.sdm/.ui.SdmUiService}
+  * ServiceRecord{348fea0 u0 com.samsung.android.cidmanager/.service.CIDManagerService}
+  * ServiceRecord{1a1bb36 u0 com.sec.epdg/.apassist.IwlanService.EpdgQualifiedNetworksService}
+  * ServiceRecord{b402cf6 u0 com.sec.epdg/.apassist.IwlanService.IwlanNetworkService}
+  * ServiceRecord{c4e0555 u0 com.android.server.telecom/com.samsung.server.telecom.SamsungTelecomService}
+  * ServiceRecord{2fe093b u0 com.sec.imsservice/com.sec.internal.ims.imsservice.VolteService2}
+  * ServiceRecord{3fab7af u0 com.sec.android.app.launcher/.globalgesture.TouchInteractionService}
+  * ServiceRecord{d1e4ed6 u0 com.android.phone/.TelephonyDebugService}
+  * ServiceRecord{8c46703 u0 com.osp.app.signin/com.samsung.android.samsungaccount.authentication.service.OspAuthenticationService}
+  * ServiceRecord{8bb2b72 u0 com.xfinitymobile.cometcarrierservice/.comet.service.StartCoMetServiceOnBoot}
+  * ServiceRecord{641e058 u0 com.samsung.cmfa.AuthTouch/.AuthFactorTouchService}
+  * ServiceRecord{c270205 u0 com.google.android.cellbroadcastservice/com.android.cellbroadcastservice.DefaultCellBroadcastService}
+  * ServiceRecord{8375c8e u0 com.sec.phone/.SecPhoneService}
+Checking service: ServiceRecord{8667b9a
+Checking service: ServiceRecord{d70a010
+Checking service: ServiceRecord{e18bd85
+Checking service: ServiceRecord{e4e3ffd
+Checking service: ServiceRecord{dc225
+Checking service: ServiceRecord{2a9c9cb
+Checking service: ServiceRecord{d671e31
+Checking service: ServiceRecord{3c56248
+Checking service: ServiceRecord{7096639
+Checking service: ServiceRecord{12ab5e4
+Checking service: ServiceRecord{313068e
+Checking service: ServiceRecord{4f72192
+Checking service: ServiceRecord{6642620
+Checking service: ServiceRecord{731fac3
+Checking service: ServiceRecord{178ca70
+Checking service: ServiceRecord{ebdf208
+Checking service: ServiceRecord{10bc667
+Checking service: ServiceRecord{471a95d
+Checking service: ServiceRecord{b973152
+Checking service: ServiceRecord{ba2062
+Checking service: ServiceRecord{88258df
+Checking service: ServiceRecord{52bda0e
+Checking service: ServiceRecord{76a3585
+Checking service: ServiceRecord{ff185b2
+Checking service: ServiceRecord{28f7850
+Checking service: ServiceRecord{c8566c9
+Checking service: ServiceRecord{b9bec2c
+Checking service: ServiceRecord{e914022
+Checking service: ServiceRecord{8b69f91
+Checking service: ServiceRecord{7a55af8
+Checking service: ServiceRecord{f0d6914
+Checking service: ServiceRecord{5370296
+Checking service: ServiceRecord{35935c4
+Checking service: ServiceRecord{f3827dd
+Checking service: ServiceRecord{3ada0a0
+Checking service: ServiceRecord{9a4ff4a
+Checking service: ServiceRecord{b1e216f
+Checking service: ServiceRecord{c6e4bb3
+Checking service: ServiceRecord{bb8ee38
+Checking service: ServiceRecord{3fbcde
+Checking service: ServiceRecord{282e001
+Checking service: ServiceRecord{f4d6e0b
+Checking service: ServiceRecord{2006270
+Checking service: ServiceRecord{31ab221
+Checking service: ServiceRecord{b0bdf5e
+Checking service: ServiceRecord{d29aaa2
+Checking service: ServiceRecord{1d955f3
+Checking service: ServiceRecord{aafade0
+Checking service: ServiceRecord{603a1af
+Checking service: ServiceRecord{b4e4372
+Checking service: ServiceRecord{3db8951
+Checking service: ServiceRecord{7a3eedd
+Checking service: ServiceRecord{4073b6a
+Checking service: ServiceRecord{7a51c36
+Checking service: ServiceRecord{99e6165
+Checking service: ServiceRecord{a2b810f
+Checking service: ServiceRecord{100d135
+Checking service: ServiceRecord{348fea0
+Checking service: ServiceRecord{1a1bb36
+Checking service: ServiceRecord{b402cf6
+Checking service: ServiceRecord{c4e0555
+Checking service: ServiceRecord{2fe093b
+Checking service: ServiceRecord{3fab7af
+Checking service: ServiceRecord{d1e4ed6
+Checking service: ServiceRecord{8c46703
+Checking service: ServiceRecord{8bb2b72
+Checking service: ServiceRecord{641e058
+Checking service: ServiceRecord{c270205
+Checking service: ServiceRecord{8375c8e
+[*] App Permissions Audit:
+  Permission [com.sec.android.app.popupcalculator.CalculatorProvider.permission.WRITE] (ebf06b7):
+    perm=PermissionInfo{3ebce24 com.sec.android.app.popupcalculator.CalculatorProvider.permission.WRITE}
+  Permission [com.sec.android.app.popupcalculator.CalculatorProvider.permission.READ] (80ded8d):
+    perm=PermissionInfo{45d4b42 com.sec.android.app.popupcalculator.CalculatorProvider.permission.READ}
+    declared permissions:
+      com.sec.android.app.popupcalculator.CalculatorProvider.permission.READ: prot=signature|privileged
+      com.sec.android.app.popupcalculator.CalculatorProvider.permission.WRITE: prot=signature|privileged
+    requested permissions:
+      com.sec.android.app.parser.permission.SecretCodeIME
+      android.permission.GET_TASKS
+      android.permission.VIBRATE
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      com.sec.spp.permission.TOKEN_b8a82002e8796582a00da99945c0030cbf5b2363606544cbe5839d0ed225f6ab631336df38d03c8f062aef9f4f0b12c876a16353cf9bd4793def6834d2addffa5f34e4b04344a60fa268dd722f793777fab4263f8be781f454a49e1c9362261e00cbd5b159b774555826c585f7f04e66134faca83b6f9e98441dcb54022e7d3e
+    install permissions:
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.sec.android.app.parser.permission.SecretCodeIME: granted=true
+      android.permission.VIBRATE: granted=true
+      runtime permissions:
+        9fbc42a com.samsung.android.app.watchmanager/com.samsung.android.app.twatchmanager.autoswitch.AutoSwitchIntentService filter 873821b permission android.permission.BIND_JOB_SERVICE
+        6b4cfb8 com.samsung.android.app.watchmanager/com.samsung.android.app.twatchmanager.plugininfoservice.PluginInfoProvideService filter 296b191 permission com.samsung.android.hostmanager.permission.ACCESS_UNIFIED_HOST_MANAGER
+  Permission [com.samsung.android.hostmanager.permission.WRITE_APP_REGISTRY] (7ad009a):
+    perm=PermissionInfo{bf45dcb com.samsung.android.hostmanager.permission.WRITE_APP_REGISTRY}
+  Permission [com.samsung.android.app.watchmanager.permission.GALAXY_WEARABLE_PLUGIN] (1a1f9a8):
+    perm=PermissionInfo{bf8acc1 com.samsung.android.app.watchmanager.permission.GALAXY_WEARABLE_PLUGIN}
+  Permission [com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS] (8e308f2):
+    perm=PermissionInfo{290bb43 com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS}
+  Permission [com.samsung.android.wearable.permission.DEVICE_DASHBOARD_PERMISSION] (94c23e):
+    perm=PermissionInfo{c79c89f com.samsung.android.wearable.permission.DEVICE_DASHBOARD_PERMISSION}
+  Permission [com.samsung.android.hostmanager.permission.ACCESS_UNIFIED_HOST_MANAGER] (4f50dec):
+    perm=PermissionInfo{71d05b5 com.samsung.android.hostmanager.permission.ACCESS_UNIFIED_HOST_MANAGER}
+  Permission [com.samsung.accessory.permission.ACCESSORY_FRAMEWORK] (912e84):
+    perm=PermissionInfo{815366d com.samsung.accessory.permission.ACCESSORY_FRAMEWORK}
+    declared permissions:
+      com.samsung.accessory.permission.ACCESSORY_FRAMEWORK: prot=normal
+      com.samsung.android.hostmanager.permission.ACCESS_UNIFIED_HOST_MANAGER: prot=signature
+      com.samsung.android.hostmanager.permission.WRITE_APP_REGISTRY: prot=signature
+      com.samsung.android.wearable.permission.DEVICE_DASHBOARD_PERMISSION: prot=signature
+      com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS: prot=signature
+      com.samsung.android.app.watchmanager.permission.GALAXY_WEARABLE_PLUGIN: prot=signature
+    requested permissions:
+      android.permission.MANAGE_ROLE_HOLDERS
+      com.samsung.android.app.watchmanager.permission.GALAXY_WEARABLE_PLUGIN
+      com.samsung.android.permission.GEAR_DUMP
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS
+      com.samsung.android.hostmanager.permission.ACCESS_UNIFIED_HOST_MANAGER
+      com.samsung.android.hostmanager.permission.WRITE_APP_REGISTRY
+      com.samsung.android.wearable.permission.DEVICE_DASHBOARD_PERMISSION
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.READ_PHONE_NUMBERS
+      android.permission.BLUETOOTH_PRIVILEGED
+      android.permission.NEARBY_WIFI_DEVICES
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.BLUETOOTH_STACK
+      android.permission.INSTALL_PACKAGES
+      android.permission.DELETE_PACKAGES
+      android.permission.NFC
+      android.permission.GET_TASKS
+      android.permission.REMOVE_TASKS
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.REORDER_TASKS
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.wssnps.permission.COM_WSSNPS
+      android.permission.REBOOT
+      android.permission.GET_ACCOUNTS
+      android.permission.GET_ACCOUNTS_PRIVILEGED
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.sec.spp.permission.TOKEN_c96448c395f6a5d7a9de72d04cdfbb6092c57a9b906b091662b1dd3f8e8122e42565eae06dbf3d4003988559ecba44ddaa68740139a04af757ed0d1ccbd82f668aaa183f17519d09dbd5ce31fdafaaa9102681effb8291ee5f0cee5d4279b15265fe4914150215751503cee4da5fb57666c9efd290369d5b3cd012d15d103f36
+      com.sec.android.diagmonagent.permission.DIAGMON
+      android.permission.FOREGROUND_SERVICE
+      com.samsung.app.watchmanagerstub.permission.START_ACTIVITY
+      android.permission.QUERY_ALL_PACKAGES
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION
+      android.permission.RECEIVE_SMS
+      android.permission.SEND_SMS
+      android.permission.READ_SMS
+      android.permission.RECEIVE_WAP_PUSH
+      android.permission.RECEIVE_MMS
+      android.permission.WRITE_CALENDAR
+      android.permission.READ_CALENDAR
+      android.permission.READ_CONTACTS
+      android.permission.WRITE_CONTACTS
+      android.permission.READ_CALL_LOG
+      android.permission.WRITE_CALL_LOG
+      android.permission.READ_PHONE_STATE
+      android.permission.CALL_PHONE
+      com.android.voicemail.permission.ADD_VOICEMAIL
+      android.permission.USE_SIP
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.REQUEST_COMPANION_PROFILE_WATCH
+      android.permission.LOCAL_MAC_ADDRESS
+      android.permission.DEVICE_POWER
+      android.permission.READ_LOGS
+      com.samsung.android.permission.SEM_MEDIA_CONTENTS
+      android.permission.WAKE_LOCK
+    install permissions:
+      com.samsung.android.hostmanager.permission.WRITE_APP_REGISTRY: granted=true
+      com.samsung.android.app.watchmanager.permission.GALAXY_WEARABLE_PLUGIN: granted=true
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      android.permission.NFC: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.samsung.android.wearable.permission.DEVICE_DASHBOARD_PERMISSION: granted=true
+      com.sec.android.diagmonagent.permission.DIAGMON: granted=true
+      android.permission.REMOVE_TASKS: granted=true
+      com.samsung.android.permission.SEM_MEDIA_CONTENTS: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.BLUETOOTH_STACK: granted=true
+      com.samsung.android.hostmanager.permission.ACCESS_UNIFIED_HOST_MANAGER: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      com.samsung.app.watchmanagerstub.permission.START_ACTIVITY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.REBOOT: granted=true
+      android.permission.REQUEST_COMPANION_PROFILE_WATCH: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    install permissions:
+      com.samsung.android.hostmanager.permission.WRITE_APP_REGISTRY: granted=true
+      com.samsung.android.app.watchmanager.permission.GALAXY_WEARABLE_PLUGIN: granted=true
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      android.permission.NFC: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.samsung.android.wearable.permission.DEVICE_DASHBOARD_PERMISSION: granted=true
+      com.sec.android.diagmonagent.permission.DIAGMON: granted=true
+      android.permission.REMOVE_TASKS: granted=true
+      com.samsung.android.permission.SEM_MEDIA_CONTENTS: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.BLUETOOTH_STACK: granted=true
+      com.samsung.android.hostmanager.permission.ACCESS_UNIFIED_HOST_MANAGER: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      com.samsung.app.watchmanagerstub.permission.START_ACTIVITY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.REBOOT: granted=true
+      android.permission.REQUEST_COMPANION_PROFILE_WATCH: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+      runtime permissions:
+        android.permission.READ_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CALL_LOG: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECEIVE_WAP_PUSH: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_PHONE_NUMBERS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.NEARBY_WIFI_DEVICES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.RECEIVE_MMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECEIVE_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.SEND_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.CALL_PHONE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALL_LOG: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.USE_SIP: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        com.android.voicemail.permission.ADD_VOICEMAIL: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        1420ebc com.openai.chatgpt/com.openai.feature.voice.impl.quicktile.QuickTileService filter b05be45 permission android.permission.BIND_QUICK_SETTINGS_TILE
+        713828e com.openai.chatgpt/com.openai.feature.assistant.impl.AssistantVoiceInteractionService filter cea0aaf permission android.permission.BIND_VOICE_INTERACTION
+    declared permissions:
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.DETECT_SCREEN_CAPTURE
+      android.permission.READ_CONTACTS
+      android.permission.READ_CALENDAR
+      com.android.alarm.permission.SET_ALARM
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.CAMERA
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.POST_NOTIFICATIONS
+      android.permission.FOREGROUND_SERVICE_MICROPHONE
+      android.permission.VIBRATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.USE_BIOMETRIC
+      android.permission.USE_FINGERPRINT
+      android.permission.WAKE_LOCK
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.MODIFY_AUDIO_SETTINGS
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+    install permissions:
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.DETECT_SCREEN_CAPTURE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION: granted=true
+      android.permission.FOREGROUND_SERVICE_MICROPHONE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+Decloak Protocol Complete: Mon Jun 16 03:48:42 MDT 2025

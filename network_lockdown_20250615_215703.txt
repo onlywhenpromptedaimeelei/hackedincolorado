@@ -1,0 +1,10 @@
+=== STARTING NETWORK LOCKDOWN ===
+Time: Sun Jun 15 21:57:03 MDT 2025
+[*] Killing ALL active connections...
+tcp6       0      0 2600:100e:b01f:8e:55092 2607:f8b0:4023:100d:443 ESTABLISHED -
+tcp6       0      0 2600:100e:b01f:8e:59940 2607:f8b0:4023:100b:443 ESTABLISHED -
+tcp6       0      0 2600:100e:b01f:8e:46394 2607:f8b0:4023:1000:443 ESTABLISHED -
+tcp6       0      0 2600:100e:b01f:8e:56002 2607:f8b0:4004:c19::443 ESTABLISHED -
+tcp6       0      0 2600:100e:b01f:8e:37862 2607:f8b0:4023:100:5228 ESTABLISHED -
+[*] Opening single channel: tun0 > 10.98.0.1
+[*] Rules enforced at Sun Jun 15 21:57:03 MDT 2025
