@@ -409,5 +409,5 @@ package:com.samsung.android.gru
 package:com.samsung.android.scpm
 
 Script finished. Please review the list above for any remaining unwanted apps.
-adrianm@anonymous-26176:~$ 
+[REDACTED USER] 
 
