@@ -1,0 +1,11 @@
+# Ignore document and archive files
+*.pdf
+*.zip
+
+# Ignore log files
+*.log
+
+# Ignore common temporary files
+*.tmp
+*.temp
+*~
